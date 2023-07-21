@@ -9,7 +9,7 @@ def make_alpacagpt4():
     print(df)
     df.to_json('data/instruction_data/alpaca_gpt4_data_zh_lines.json', orient='records', force_ascii=False,lines=True)
 
-make_alpacagpt4()
+# make_alpacagpt4()
 
 multi_choice_instruct = 'Please choose the best answer from the following four options based on the given question.' \
                         ' Note that each option may contain part of the correct answer, but not all. ' \
@@ -33,11 +33,11 @@ def make_instruct_ARC(input_path, output_path):
                 f.write(json.dumps(data) + '\n')
 
 
-# make_instruct_ARC(input_path='data/ARC/ARC-c/ARC-Challenge-Dev.jsonl',
-#                   output_path='data/instruction_data/ARC-Challenge-Dev-Instruction.json')
-# make_instruct_ARC(input_path='data/ARC/ARC-e/ARC-Easy-Dev.jsonl',
-#                   output_path='data/instruction_data/ARC-Easy-Dev-Instruction.json')
-#
+make_instruct_ARC(input_path='data/ARC/ARC-c/ARC-Challenge-Dev.jsonl',
+                  output_path='data/instruction_data/ARC-Challenge-Dev-Instruction.json')
+make_instruct_ARC(input_path='data/ARC/ARC-e/ARC-Easy-Dev.jsonl',
+                  output_path='data/instruction_data/ARC-Easy-Dev-Instruction.json')
+
 def make_instruct_BBH():
     for file in os.listdir('data/BBH/data'):
         if file.endswith('.json'):
@@ -58,7 +58,7 @@ def make_instruct_BBH():
                         in_f.write(json.dumps(data) + '\n')
 
 
-# make_instruct_BBH()
+make_instruct_BBH()
 
 def make_instruct_ceval(base_dir='data/ceval/formal_ceval/dev', output_dir='data/ceval/formal_ceval/instruction'):
     instruct_template = '请根据给定的文本，从以下四个选项中选择最佳答案。\n请注意，每个选项都可能包含正确答案的一部分信息，但并非全部。\n请仔细阅读每个选项，并结合文本内容进行判断。\n'
@@ -80,8 +80,8 @@ def make_instruct_ceval(base_dir='data/ceval/formal_ceval/dev', output_dir='data
                 in_f.write(json.dumps(data, ensure_ascii=False) + '\n')
 
 
-# make_instruct_ceval(base_dir='data/ceval/formal_ceval/dev', output_dir='data/instruction_data')
-# make_instruct_ceval(base_dir='data/ceval/formal_ceval/val', output_dir='data/instruction_data')
+make_instruct_ceval(base_dir='data/ceval/formal_ceval/dev', output_dir='data/instruction_data')
+make_instruct_ceval(base_dir='data/ceval/formal_ceval/val', output_dir='data/instruction_data')
 
 
 def make_instruct_CLUE():
@@ -98,7 +98,7 @@ def make_instruct_CLUE():
             in_f.write(json.dumps(data, ensure_ascii=False) + '\n')
 
 
-# make_instruct_CLUE()
+make_instruct_CLUE()
 
 
 def make_instruct_FewCLUE():
@@ -142,7 +142,7 @@ def make_instruct_FewCLUE():
             in_f.write(json.dumps(data, ensure_ascii=False) + '\n')
 
 
-# make_instruct_FewCLUE()
+make_instruct_FewCLUE()
 
 def make_instruct_mbpp():
     instruct_template = '请根据给定的文本，判断其所属的学科专业类别。请仔细阅读文本内容，并结合上下文进行判断。'
@@ -157,7 +157,7 @@ def make_instruct_mbpp():
             in_f.write(json.dumps(data, ensure_ascii=False) + '\n')
 
 
-# make_instruct_mbpp()
+make_instruct_mbpp()
 
 import random
 
@@ -186,7 +186,7 @@ def make_instruct_mmlu(base_dir='data/mmlu/auxiliary_train', output_dir='data/in
                 in_f.write(json.dumps(data, ensure_ascii=False) + '\n')
 
 
-# make_instruct_mmlu()
+make_instruct_mmlu()
 
 
 def make_instruct_nq():
@@ -202,7 +202,7 @@ def make_instruct_nq():
             in_f.write(json.dumps(data, ensure_ascii=False) + '\n')
 
 
-# make_instruct_nq()
+make_instruct_nq()
 
 
 def make_instruct_SuperGLUE():
@@ -269,4 +269,4 @@ def make_instruct_SuperGLUE():
             data['output'] = row['label']
             in_f.write(json.dumps(data, ensure_ascii=False) + '\n')
 
-# make_instruct_SuperGLUE()
+make_instruct_SuperGLUE()
