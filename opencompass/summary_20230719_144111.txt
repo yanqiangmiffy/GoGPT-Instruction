@@ -1,0 +1,627 @@
+20230719_144111
+tabulate format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset                        version    metric            mode    gogpt-7b
+-----------------------------  ---------  ----------------  ------  ----------
+ceval                          -          naive_average     ppl     30.55
+agieval                        -          naive_average     mixed   25.23
+mmlu                           -          naive_average     ppl     41.39
+mmlu_cn                        -          -                 -       -
+GaokaoBench                    -          weighted_average  mixed   20.64
+ARC-c                          c70f58     accuracy          ppl     40.68
+compass_exam-senior-high-2023  -          -                 -       -
+WiC                            ce62e6     accuracy          ppl     50.63
+summedits                      b17388     accuracy          ppl     42.39
+chid-dev                       25f3d3     accuracy          ppl     56.44
+afqmc-dev                      cc328c     accuracy          ppl     31.02
+bustm-dev                      24e7f0     accuracy          ppl     50.62
+cluewsc-dev                    78c2bd     accuracy          ppl     49.69
+WSC                            678cb5     accuracy          ppl     66.35
+winogrande                     56fb2e     accuracy          ppl     60.54
+flores_100                     -          naive_average     gen     3.74
+BoolQ                          eb8f44     accuracy          ppl     67.40
+commonsense_qa                 0d8e25     accuracy          ppl     62.49
+nq                             23dc1a     score             gen     9.03
+triviaqa                       b6904f     score             gen     31.84
+tydiqa                         -          -                 -       -
+cmnli                          15e783     accuracy          ppl     32.51
+ocnli                          15e783     accuracy          ppl     30.00
+ocnli_fc-dev                   e6c6a9     accuracy          ppl     33.12
+AX_b                           689df1     accuracy          ppl     48.73
+AX_g                           808a19     accuracy          ppl     52.53
+CB                             6205bc     accuracy          ppl     50.00
+RTE                            808a19     accuracy          ppl     51.26
+story_cloze                    660761     accuracy          ppl     75.95
+story_cloze_cn                 -          -                 -       -
+COPA                           7a03c1     accuracy          ppl     67.00
+ReCoRD                         6f7cfc     score             gen     18.67
+hellaswag                      0b81db     accuracy          ppl     67.95
+piqa                           e29c57     accuracy          ppl     76.50
+siqa                           7d0eb0     accuracy          ppl     46.52
+strategyqa                     f0c844     accuracy          gen     58.38
+math                           2c0b9e     accuracy          gen     1.68
+math_cn                        -          -                 -       -
+gsm8k                          -          -                 -       -
+gsm8k_cn                       -          -                 -       -
+TheoremQA                      ce186d     accuracy          gen     1.25
+openai_humaneval               f30363     humaneval_pass@1  gen     15.24
+mbpp                           60ca11     score             gen     16.40
+bbh                            -          -                 -       -
+C3                             e534f7     accuracy          ppl     51.73
+CMRC_dev                       4d10bc     score             gen     3.73
+DRCD_dev                       4d10bc     score             gen     8.80
+MultiRC                        8170fd     accuracy          ppl     45.40
+race-middle                    2bf573     accuracy          ppl     50.70
+race-high                      2bf573     accuracy          ppl     44.20
+openbookqa_fact                f66131     accuracy          ppl     69.20
+csl_dev                        3c4211     accuracy          ppl     64.38
+lcsts                          0b3969     rouge1            gen     11.28
+Xsum                           207e69     rouge1            gen     23.36
+eprstmt-dev                    ed0c5d     accuracy          ppl     79.38
+lambada                        de1af2     accuracy          gen     62.95
+tnews-dev                      f96b5c     accuracy          ppl     26.87
+crows_pairs                    230fd6     accuracy          ppl     65.19
+crowspairs_cn                  -          -                 -       -
+civil_comments                 -          -                 -       -
+jigsaw_multilingual            -          -                 -       -
+allenai_real-toxicity-prompts  -          -                 -       -
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+csv format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset,version,metric,mode,gogpt-7b
+ceval,-,naive_average,ppl,30.55
+agieval,-,naive_average,mixed,25.23
+mmlu,-,naive_average,ppl,41.39
+mmlu_cn,-,-,-,-
+GaokaoBench,-,weighted_average,mixed,20.64
+ARC-c,c70f58,accuracy,ppl,40.68
+compass_exam-senior-high-2023,-,-,-,-
+WiC,ce62e6,accuracy,ppl,50.63
+summedits,b17388,accuracy,ppl,42.39
+chid-dev,25f3d3,accuracy,ppl,56.44
+afqmc-dev,cc328c,accuracy,ppl,31.02
+bustm-dev,24e7f0,accuracy,ppl,50.62
+cluewsc-dev,78c2bd,accuracy,ppl,49.69
+WSC,678cb5,accuracy,ppl,66.35
+winogrande,56fb2e,accuracy,ppl,60.54
+flores_100,-,naive_average,gen,3.74
+BoolQ,eb8f44,accuracy,ppl,67.40
+commonsense_qa,0d8e25,accuracy,ppl,62.49
+nq,23dc1a,score,gen,9.03
+triviaqa,b6904f,score,gen,31.84
+tydiqa,-,-,-,-
+cmnli,15e783,accuracy,ppl,32.51
+ocnli,15e783,accuracy,ppl,30.00
+ocnli_fc-dev,e6c6a9,accuracy,ppl,33.12
+AX_b,689df1,accuracy,ppl,48.73
+AX_g,808a19,accuracy,ppl,52.53
+CB,6205bc,accuracy,ppl,50.00
+RTE,808a19,accuracy,ppl,51.26
+story_cloze,660761,accuracy,ppl,75.95
+story_cloze_cn,-,-,-,-
+COPA,7a03c1,accuracy,ppl,67.00
+ReCoRD,6f7cfc,score,gen,18.67
+hellaswag,0b81db,accuracy,ppl,67.95
+piqa,e29c57,accuracy,ppl,76.50
+siqa,7d0eb0,accuracy,ppl,46.52
+strategyqa,f0c844,accuracy,gen,58.38
+math,2c0b9e,accuracy,gen,1.68
+math_cn,-,-,-,-
+gsm8k,-,-,-,-
+gsm8k_cn,-,-,-,-
+TheoremQA,ce186d,accuracy,gen,1.25
+openai_humaneval,f30363,humaneval_pass@1,gen,15.24
+mbpp,60ca11,score,gen,16.40
+bbh,-,-,-,-
+C3,e534f7,accuracy,ppl,51.73
+CMRC_dev,4d10bc,score,gen,3.73
+DRCD_dev,4d10bc,score,gen,8.80
+MultiRC,8170fd,accuracy,ppl,45.40
+race-middle,2bf573,accuracy,ppl,50.70
+race-high,2bf573,accuracy,ppl,44.20
+openbookqa_fact,f66131,accuracy,ppl,69.20
+csl_dev,3c4211,accuracy,ppl,64.38
+lcsts,0b3969,rouge1,gen,11.28
+Xsum,207e69,rouge1,gen,23.36
+eprstmt-dev,ed0c5d,accuracy,ppl,79.38
+lambada,de1af2,accuracy,gen,62.95
+tnews-dev,f96b5c,accuracy,ppl,26.87
+crows_pairs,230fd6,accuracy,ppl,65.19
+crowspairs_cn,-,-,-,-
+civil_comments,-,-,-,-
+jigsaw_multilingual,-,-,-,-
+allenai_real-toxicity-prompts,-,-,-,-
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+raw format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
+Model: gogpt-7b
+lukaemon_mmlu_college_biology: {'accuracy': 38.19444444444444}
+lukaemon_mmlu_college_chemistry: {'accuracy': 31.0}
+lukaemon_mmlu_college_computer_science: {'accuracy': 28.999999999999996}
+lukaemon_mmlu_college_mathematics: {'accuracy': 28.999999999999996}
+lukaemon_mmlu_college_physics: {'accuracy': 26.47058823529412}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 32.41379310344827}
+lukaemon_mmlu_astronomy: {'accuracy': 44.73684210526316}
+lukaemon_mmlu_anatomy: {'accuracy': 45.18518518518518}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 25.0}
+lukaemon_mmlu_machine_learning: {'accuracy': 29.464285714285715}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 48.301886792452834}
+lukaemon_mmlu_global_facts: {'accuracy': 35.0}
+lukaemon_mmlu_management: {'accuracy': 57.28155339805825}
+lukaemon_mmlu_nutrition: {'accuracy': 43.13725490196079}
+lukaemon_mmlu_marketing: {'accuracy': 64.95726495726495}
+lukaemon_mmlu_professional_accounting: {'accuracy': 33.33333333333333}
+lukaemon_mmlu_high_school_geography: {'accuracy': 58.080808080808076}
+lukaemon_mmlu_international_law: {'accuracy': 58.67768595041323}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 24.24581005586592}
+lukaemon_mmlu_computer_security: {'accuracy': 52.0}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 33.61344537815126}
+lukaemon_mmlu_professional_law: {'accuracy': 28.42242503259452}
+lukaemon_mmlu_medical_genetics: {'accuracy': 49.0}
+lukaemon_mmlu_professional_psychology: {'accuracy': 36.76470588235294}
+lukaemon_mmlu_jurisprudence: {'accuracy': 51.85185185185185}
+lukaemon_mmlu_world_religions: {'accuracy': 55.55555555555556}
+lukaemon_mmlu_philosophy: {'accuracy': 42.765273311897104}
+lukaemon_mmlu_virology: {'accuracy': 40.36144578313253}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 32.01970443349754}
+lukaemon_mmlu_public_relations: {'accuracy': 52.72727272727272}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 37.69230769230769}
+lukaemon_mmlu_human_sexuality: {'accuracy': 45.80152671755725}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 26.984126984126984}
+lukaemon_mmlu_high_school_physics: {'accuracy': 28.47682119205298}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 45.0}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 38.18181818181819}
+lukaemon_mmlu_business_ethics: {'accuracy': 50.0}
+lukaemon_mmlu_moral_disputes: {'accuracy': 42.48554913294797}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 34.25925925925926}
+lukaemon_mmlu_miscellaneous: {'accuracy': 58.876117496807154}
+lukaemon_mmlu_formal_logic: {'accuracy': 23.809523809523807}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 59.067357512953365}
+lukaemon_mmlu_prehistory: {'accuracy': 41.9753086419753}
+lukaemon_mmlu_security_studies: {'accuracy': 31.428571428571427}
+lukaemon_mmlu_high_school_biology: {'accuracy': 48.38709677419355}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 46.012269938650306}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 45.56962025316456}
+lukaemon_mmlu_professional_medicine: {'accuracy': 37.5}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 24.074074074074073}
+lukaemon_mmlu_college_medicine: {'accuracy': 37.57225433526011}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 46.07843137254902}
+lukaemon_mmlu_sociology: {'accuracy': 48.756218905472636}
+lukaemon_mmlu_econometrics: {'accuracy': 31.57894736842105}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 49.908256880733944}
+lukaemon_mmlu_human_aging: {'accuracy': 50.224215246636774}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 59.0}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 41.702127659574465}
+ceval-computer_network: {'accuracy': 31.57894736842105}
+ceval-operating_system: {'accuracy': 15.789473684210526}
+ceval-computer_architecture: {'accuracy': 28.57142857142857}
+ceval-college_programming: {'accuracy': 35.13513513513514}
+ceval-college_physics: {'accuracy': 15.789473684210526}
+ceval-college_chemistry: {'accuracy': 25.0}
+ceval-advanced_mathematics: {'accuracy': 15.789473684210526}
+ceval-probability_and_statistics: {'accuracy': 16.666666666666664}
+ceval-discrete_mathematics: {'accuracy': 43.75}
+ceval-electrical_engineer: {'accuracy': 21.62162162162162}
+ceval-metrology_engineer: {'accuracy': 29.166666666666668}
+ceval-high_school_mathematics: {'accuracy': 11.11111111111111}
+ceval-high_school_physics: {'accuracy': 15.789473684210526}
+ceval-high_school_chemistry: {'accuracy': 31.57894736842105}
+ceval-high_school_biology: {'accuracy': 47.368421052631575}
+ceval-middle_school_mathematics: {'accuracy': 15.789473684210526}
+ceval-middle_school_biology: {'accuracy': 23.809523809523807}
+ceval-middle_school_physics: {'accuracy': 47.368421052631575}
+ceval-middle_school_chemistry: {'accuracy': 25.0}
+ceval-veterinary_medicine: {'accuracy': 21.73913043478261}
+ceval-college_economics: {'accuracy': 34.54545454545455}
+ceval-business_administration: {'accuracy': 33.33333333333333}
+ceval-marxism: {'accuracy': 47.368421052631575}
+ceval-mao_zedong_thought: {'accuracy': 37.5}
+ceval-education_science: {'accuracy': 31.03448275862069}
+ceval-teacher_qualification: {'accuracy': 31.818181818181817}
+ceval-high_school_politics: {'accuracy': 21.052631578947366}
+ceval-high_school_geography: {'accuracy': 26.31578947368421}
+ceval-middle_school_politics: {'accuracy': 23.809523809523807}
+ceval-middle_school_geography: {'accuracy': 41.66666666666667}
+ceval-modern_chinese_history: {'accuracy': 26.08695652173913}
+ceval-ideological_and_moral_cultivation: {'accuracy': 42.10526315789473}
+ceval-logic: {'accuracy': 27.27272727272727}
+ceval-law: {'accuracy': 29.166666666666668}
+ceval-chinese_language_and_literature: {'accuracy': 21.73913043478261}
+ceval-art_studies: {'accuracy': 51.515151515151516}
+ceval-professional_tour_guide: {'accuracy': 34.48275862068966}
+ceval-legal_professional: {'accuracy': 13.043478260869565}
+ceval-high_school_chinese: {'accuracy': 31.57894736842105}
+ceval-high_school_history: {'accuracy': 45.0}
+ceval-middle_school_history: {'accuracy': 31.818181818181817}
+ceval-civil_servant: {'accuracy': 29.78723404255319}
+ceval-sports_science: {'accuracy': 42.10526315789473}
+ceval-plant_protection: {'accuracy': 54.54545454545454}
+ceval-basic_medicine: {'accuracy': 57.89473684210527}
+ceval-clinical_medicine: {'accuracy': 22.727272727272727}
+ceval-urban_and_rural_planner: {'accuracy': 30.434782608695656}
+ceval-accountant: {'accuracy': 30.612244897959183}
+ceval-fire_engineer: {'accuracy': 41.935483870967744}
+ceval-environmental_impact_assessment_engineer: {'accuracy': 22.58064516129032}
+ceval-tax_accountant: {'accuracy': 24.489795918367346}
+ceval-physician: {'accuracy': 30.612244897959183}
+agieval-gaokao-chinese: {'accuracy': 20.32520325203252}
+agieval-gaokao-english: {'accuracy': 59.150326797385624}
+agieval-gaokao-geography: {'accuracy': 33.165829145728644}
+agieval-gaokao-history: {'accuracy': 35.319148936170215}
+agieval-gaokao-biology: {'accuracy': 23.809523809523807}
+agieval-gaokao-chemistry: {'accuracy': 26.570048309178745}
+agieval-gaokao-physics: {'accuracy': 27.27272727272727}
+agieval-gaokao-mathqa: {'accuracy': 24.216524216524217}
+agieval-logiqa-zh: {'accuracy': 30.721966205837177}
+agieval-lsat-ar: {'accuracy': 21.73913043478261}
+agieval-lsat-lr: {'accuracy': 23.92156862745098}
+agieval-lsat-rc: {'accuracy': 25.650557620817843}
+agieval-logiqa-en: {'accuracy': 29.80030721966206}
+agieval-sat-math: {'accuracy': 24.545454545454547}
+agieval-sat-en: {'accuracy': 37.86407766990291}
+agieval-sat-en-without-passage: {'accuracy': 25.24271844660194}
+agieval-aqua-rat: {'accuracy': 20.47244094488189}
+agieval-jec-qa-kd: {'accuracy': 15.6}
+agieval-jec-qa-ca: {'accuracy': 17.299999999999997}
+agieval-gaokao-mathcloze: {'score': 2.5423728813559325}
+agieval-math: {'score': 4.7}
+GaokaoBench_2010-2022_Physics_MCQs: {'score': 17.96875}
+GaokaoBench_2010-2022_Chinese_Modern_Lit: {'score': 14.942528735632186}
+GaokaoBench_2010-2022_English_Fill_in_Blanks: {'score': 19.5}
+GaokaoBench_2012-2022_English_Cloze_Test: {'score': 13.076923076923078}
+GaokaoBench_2010-2022_Geography_MCQs: {'score': 22.105263157894736}
+GaokaoBench_2010-2022_English_Reading_Comp: {'score': 9.361702127659575}
+GaokaoBench_2010-2022_Chinese_Lang_and_Usage_MCQs: {'score': 17.5}
+GaokaoBench_2010-2022_Math_I_Fill-in-the-Blank: {'score': 0}
+GaokaoBench_2010-2022_Math_II_Fill-in-the-Blank: {'score': 0}
+GaokaoBench_2010-2022_Chinese_Language_Famous_Passages_and_Sentences_Dictation: {'score': 0}
+GaokaoBench_2014-2022_English_Language_Cloze_Passage: {'score': 0}
+GaokaoBench_2010-2022_Geography_Open-ended_Questions: {'score': 0}
+GaokaoBench_2010-2022_Chemistry_Open-ended_Questions: {'score': 0}
+GaokaoBench_2010-2022_Math_I_Open-ended_Questions: {'score': 0}
+GaokaoBench_2010-2022_History_Open-ended_Questions: {'score': 0}
+GaokaoBench_2010-2022_Biology_Open-ended_Questions: {'score': 0}
+GaokaoBench_2010-2022_Math_II_Open-ended_Questions: {'score': 0}
+GaokaoBench_2010-2022_Physics_Open-ended_Questions: {'score': 0}
+GaokaoBench_2010-2022_Political_Science_Open-ended_Questions: {'score': 0}
+GaokaoBench_2012-2022_English_Language_Error_Correction: {'score': 0}
+GaokaoBench_2010-2022_Chinese_Language_Ancient_Poetry_Reading: {'score': 0}
+GaokaoBench_2010-2022_Chinese_Language_Practical_Text_Reading: {'score': 0}
+GaokaoBench_2010-2022_Chinese_Language_Literary_Text_Reading: {'score': 0}
+GaokaoBench_2010-2022_Chinese_Language_Classical_Chinese_Reading: {'score': 0}
+GaokaoBench_2010-2022_Chinese_Language_Language_and_Writing_Skills_Open-ended_Questions: {'score': 0}
+GaokaoBench_2010-2022_Math_II_MCQs: {'score': 22.477064220183486}
+GaokaoBench_2010-2022_Math_I_MCQs: {'score': 27.102803738317753}
+GaokaoBench_2010-2022_History_MCQs: {'score': 25.087108013937282}
+GaokaoBench_2010-2022_Biology_MCQs: {'score': 18.666666666666668}
+GaokaoBench_2010-2022_Political_Science_MCQs: {'score': 23.125}
+GaokaoBench_2010-2022_Chemistry_MCQs: {'score': 20.967741935483872}
+GaokaoBench_2010-2013_English_MCQs: {'score': 26.666666666666668}
+bbh-temporal_sequences: {'accuracy': 19.6}
+bbh-disambiguation_qa: {'accuracy': 41.199999999999996}
+bbh-date_understanding: {'accuracy': 51.6}
+bbh-tracking_shuffled_objects_three_objects: {'accuracy': 32.4}
+bbh-penguins_in_a_table: {'accuracy': 35.61643835616438}
+bbh-geometric_shapes: {'accuracy': 5.2}
+bbh-snarks: {'accuracy': 47.752808988764045}
+bbh-tracking_shuffled_objects_seven_objects: {'accuracy': 14.399999999999999}
+bbh-tracking_shuffled_objects_five_objects: {'accuracy': 18.4}
+bbh-logical_deduction_three_objects: {'accuracy': 45.6}
+bbh-hyperbaton: {'accuracy': 52.0}
+bbh-logical_deduction_five_objects: {'accuracy': 22.8}
+bbh-logical_deduction_seven_objects: {'accuracy': 13.200000000000001}
+bbh-movie_recommendation: {'accuracy': 41.6}
+bbh-reasoning_about_colored_objects: {'accuracy': 31.6}
+bbh-multistep_arithmetic_two: {'score': 0.0}
+bbh-navigate: {'score': 57.99999999999999}
+bbh-dyck_languages: {'score': 0.0}
+bbh-formal_fallacies: {'score': 42.0}
+bbh-causal_judgement: {'score': 51.33689839572193}
+bbh-web_of_lies: {'score': 54.800000000000004}
+openai_humaneval: {'humaneval_pass@1': 15.24390243902439}
+mbpp: {'pass': 82, 'timeout': 1, 'failed': 168, 'wrong_answer': 249, 'score': 16.400000000000002}
+C3: {'accuracy': 51.726027397260275}
+CMRC_dev: {'score': 3.727865796831314}
+DRCD_dev: {'score': 8.796821793416571}
+afqmc-dev: {'accuracy': 31.024096385542173}
+cmnli: {'accuracy': 32.51247384516336}
+ocnli: {'accuracy': 30.0}
+bustm-dev: {'accuracy': 50.625}
+bustm-test: {'accuracy': 52.03160270880362}
+chid-dev: {'accuracy': 56.43564356435643}
+chid-test: {'accuracy': 51.24875124875125}
+cluewsc-dev: {'accuracy': 49.685534591194966}
+cluewsc-test: {'accuracy': 50.0}
+csl_dev: {'accuracy': 64.375}
+csl_test: {'accuracy': 63.107822410147996}
+eprstmt-dev: {'accuracy': 79.375}
+eprstmt-test: {'accuracy': 84.42622950819673}
+ocnli_fc-dev: {'accuracy': 33.125}
+ocnli_fc-test: {'accuracy': 35.476190476190474}
+tnews-dev: {'accuracy': 26.86703096539162}
+tnews-test: {'accuracy': 25.48596112311015}
+lcsts: {'rouge1': 11.282134834314238, 'rouge2': 1.4446128969181418, 'rougeL': 11.19965220662075, 'rougeLsum': 11.20338047899839}
+lambada: {'accuracy': 62.95361925092179}
+story_cloze: {'accuracy': 75.94869053981827}
+AX_b: {'accuracy': 48.731884057971016}
+AX_g: {'accuracy': 52.52808988764045}
+BoolQ: {'accuracy': 67.4006116207951}
+CB: {'accuracy': 50.0}
+COPA: {'accuracy': 67.0}
+MultiRC: {'accuracy': 45.400165016501646}
+RTE: {'accuracy': 51.26353790613718}
+ReCoRD: {'score': 18.67}
+WiC: {'accuracy': 50.626959247648905}
+WSC: {'accuracy': 66.34615384615384}
+race-middle: {'accuracy': 50.69637883008357}
+race-high: {'accuracy': 44.19668381932533}
+Xsum: {'rouge1': 23.358725637964376, 'rouge2': 6.772870979526056, 'rougeL': 17.266005087402895, 'rougeLsum': 17.282405574048493}
+summedits: {'accuracy': 42.391304347826086}
+math: {'accuracy': 1.68}
+TheoremQA: {'accuracy': 1.25}
+hellaswag: {'accuracy': 67.95459071898028}
+ARC-e: {'accuracy': 58.201058201058196}
+ARC-c: {'accuracy': 40.67796610169492}
+commonsense_qa: {'accuracy': 62.48976248976249}
+piqa: {'accuracy': 76.4961915125136}
+siqa: {'accuracy': 46.51995905834186}
+strategyqa: {'accuracy': 58.38427947598254}
+winogrande: {'accuracy': 60.53670086819258}
+openbookqa: {'accuracy': 48.199999999999996}
+openbookqa_fact: {'accuracy': 69.19999999999999}
+nq: {'score': 9.030470914127424}
+triviaqa: {'score': 31.843385764399684}
+flores_100_eng-afr: {'score': 5.291068426491199, 'counts': [1301, 455, 207, 87], 'totals': [6224, 6124, 6024, 5924], 'precisions': [20.902956298200515, 7.4297844546048335, 3.4362549800796813, 1.4686022957461176], 'bp': 1.0, 'sys_len': 6224, 'ref_len': 2791}
+flores_100_eng-dan: {'score': 5.953618228222178, 'counts': [1142, 470, 215, 101], 'totals': [5670, 5570, 5470, 5370], 'precisions': [20.141093474426807, 8.43806104129264, 3.930530164533821, 1.8808193668528863], 'bp': 1.0, 'sys_len': 5670, 'ref_len': 2644}
+flores_100_eng-deu: {'score': 6.678003268512045, 'counts': [1310, 534, 281, 153], 'totals': [6387, 6287, 6187, 6087], 'precisions': [20.510411773915767, 8.493717194210275, 4.541781154032649, 2.5135534746180386], 'bp': 1.0, 'sys_len': 6387, 'ref_len': 2714}
+flores_100_eng-isl: {'score': 0.3111562659856718, 'counts': [178, 34, 12, 4], 'totals': [7612, 7512, 7412, 7312], 'precisions': [2.3384130320546506, 0.45260915867944623, 0.16189962223421478, 0.05470459518599562], 'bp': 1.0, 'sys_len': 7612, 'ref_len': 2393}
+flores_100_eng-ltz: {'score': 1.5657928856676124, 'counts': [428, 108, 38, 15], 'totals': [4727, 4627, 4527, 4427], 'precisions': [9.054368521260843, 2.3341257834449967, 0.8394079964656506, 0.338829907386492], 'bp': 1.0, 'sys_len': 4727, 'ref_len': 2679}
+flores_100_eng-nld: {'score': 5.317327082697318, 'counts': [1304, 450, 203, 107], 'totals': [6470, 6370, 6270, 6170], 'precisions': [20.154559505409583, 7.06436420722135, 3.237639553429027, 1.73419773095624], 'bp': 1.0, 'sys_len': 6470, 'ref_len': 2714}
+flores_100_eng-nob: {'score': 4.29258578294697, 'counts': [988, 334, 161, 70], 'totals': [5904, 5804, 5704, 5604], 'precisions': [16.73441734417344, 5.754651964162647, 2.8225806451612905, 1.2491077801570307], 'bp': 1.0, 'sys_len': 5904, 'ref_len': 2528}
+flores_100_eng-swe: {'score': 7.365951790608669, 'counts': [1163, 532, 286, 170], 'totals': [5805, 5705, 5605, 5505], 'precisions': [20.034453057708873, 9.325153374233128, 5.102586975914362, 3.0881017257039054], 'bp': 1.0, 'sys_len': 5805, 'ref_len': 2438}
+flores_100_eng-ast: {'score': 3.9644595965103386, 'counts': [1067, 356, 147, 70], 'totals': [6458, 6358, 6258, 6158], 'precisions': [16.522143078352432, 5.599245045611828, 2.348993288590604, 1.136732705423839], 'bp': 1.0, 'sys_len': 6458, 'ref_len': 2622}
+flores_100_eng-cat: {'score': 10.794777957549641, 'counts': [1675, 855, 503, 309], 'totals': [6514, 6414, 6314, 6214], 'precisions': [25.713847098556954, 13.33021515434986, 7.9664238200823565, 4.972642420341165], 'bp': 1.0, 'sys_len': 6514, 'ref_len': 2960}
+flores_100_eng-fra: {'score': 13.616476405093605, 'counts': [1860, 1068, 701, 469], 'totals': [6753, 6653, 6553, 6453], 'precisions': [27.54331408262994, 16.052908462347812, 10.6973905081642, 7.267937393460406], 'bp': 1.0, 'sys_len': 6753, 'ref_len': 3022}
+flores_100_eng-glg: {'score': 4.558179948760268, 'counts': [1162, 392, 167, 89], 'totals': [6444, 6344, 6244, 6144], 'precisions': [18.03227808814401, 6.17906683480454, 2.674567584881486, 1.4485677083333333], 'bp': 1.0, 'sys_len': 6444, 'ref_len': 2858}
+flores_100_eng-oci: {'score': 4.205095725357185, 'counts': [1070, 348, 150, 75], 'totals': [6201, 6101, 6001, 5901], 'precisions': [17.255281406224803, 5.703982953614162, 2.4995834027662056, 1.2709710218607015], 'bp': 1.0, 'sys_len': 6201, 'ref_len': 2855}
+flores_100_eng-por: {'score': 10.833119194508651, 'counts': [1637, 864, 520, 338], 'totals': [6669, 6569, 6469, 6369], 'precisions': [24.546408756935072, 13.152686862536155, 8.038336682640285, 5.306955566022924], 'bp': 1.0, 'sys_len': 6669, 'ref_len': 2824}
+flores_100_eng-ron: {'score': 8.545419745875266, 'counts': [1321, 624, 349, 198], 'totals': [5868, 5768, 5668, 5568], 'precisions': [22.511929107021132, 10.818307905686547, 6.157374735356386, 3.5560344827586206], 'bp': 1.0, 'sys_len': 5868, 'ref_len': 2859}
+flores_100_eng-spa: {'score': 8.98715520100086, 'counts': [1736, 796, 430, 236], 'totals': [6960, 6860, 6760, 6660], 'precisions': [24.942528735632184, 11.603498542274053, 6.3609467455621305, 3.5435435435435436], 'bp': 1.0, 'sys_len': 6960, 'ref_len': 3125}
+flores_100_eng-bel: {'score': 0.28191144244293925, 'counts': [221, 6, 2, 1], 'totals': [2698, 2598, 2498, 2398], 'precisions': [8.191252779836915, 0.23094688221709006, 0.08006405124099279, 0.041701417848206836], 'bp': 1.0, 'sys_len': 2698, 'ref_len': 2668}
+flores_100_eng-bos: {'score': 5.50842106541778, 'counts': [1024, 373, 184, 93], 'totals': [5313, 5213, 5113, 5013], 'precisions': [19.27348014304536, 7.155188950700173, 3.5986700567181695, 1.8551765409934171], 'bp': 1.0, 'sys_len': 5313, 'ref_len': 2507}
+flores_100_eng-bul: {'score': 3.8992997724639777, 'counts': [915, 265, 119, 56], 'totals': [5293, 5193, 5093, 4993], 'precisions': [17.28698280748158, 5.103023300596957, 2.336540349499313, 1.1215701982775885], 'bp': 1.0, 'sys_len': 5293, 'ref_len': 2653}
+flores_100_eng-ces: {'score': 4.861296790044507, 'counts': [966, 357, 160, 78], 'totals': [5420, 5320, 5220, 5120], 'precisions': [17.822878228782287, 6.7105263157894735, 3.0651340996168583, 1.5234375], 'bp': 1.0, 'sys_len': 5420, 'ref_len': 2358}
+flores_100_eng-hrv: {'score': 4.436119605717407, 'counts': [946, 324, 142, 62], 'totals': [5289, 5189, 5089, 4989], 'precisions': [17.88617886178862, 6.243977645018308, 2.7903320888190213, 1.2427340148326318], 'bp': 1.0, 'sys_len': 5289, 'ref_len': 2453}
+flores_100_eng-mkd: {'score': 1.6324989124578841, 'counts': [640, 104, 30, 15], 'totals': [4683, 4583, 4483, 4383], 'precisions': [13.666453128336537, 2.2692559458869734, 0.6691947356680794, 0.34223134839151265], 'bp': 1.0, 'sys_len': 4683, 'ref_len': 2626}
+flores_100_eng-pol: {'score': 4.014522461195734, 'counts': [878, 292, 124, 50], 'totals': [5125, 5025, 4925, 4825], 'precisions': [17.13170731707317, 5.810945273631841, 2.517766497461929, 1.0362694300518134], 'bp': 1.0, 'sys_len': 5125, 'ref_len': 2442}
+flores_100_eng-rus: {'score': 2.4752174643188214, 'counts': [767, 205, 77, 25], 'totals': [5480, 5380, 5280, 5180], 'precisions': [13.996350364963504, 3.8104089219330857, 1.4583333333333333, 0.4826254826254826], 'bp': 1.0, 'sys_len': 5480, 'ref_len': 2553}
+flores_100_eng-slk: {'score': 2.915331321126611, 'counts': [703, 174, 76, 34], 'totals': [4725, 4625, 4525, 4425], 'precisions': [14.878306878306878, 3.7621621621621624, 1.6795580110497237, 0.768361581920904], 'bp': 1.0, 'sys_len': 4725, 'ref_len': 2365}
+flores_100_eng-slv: {'score': 4.300923135978563, 'counts': [995, 330, 139, 61], 'totals': [5492, 5392, 5292, 5192], 'precisions': [18.117261471230883, 6.120178041543027, 2.6266061980347692, 1.174884437596302], 'bp': 1.0, 'sys_len': 5492, 'ref_len': 2544}
+flores_100_eng-srp: {'score': 2.9904419601568066, 'counts': [794, 215, 80, 31], 'totals': [4948, 4848, 4748, 4648], 'precisions': [16.046887631366207, 4.434818481848184, 1.6849199663016006, 0.6669535283993115], 'bp': 1.0, 'sys_len': 4948, 'ref_len': 2515}
+flores_100_eng-ukr: {'score': 1.6010079985203174, 'counts': [520, 108, 39, 13], 'totals': [4714, 4614, 4514, 4414], 'precisions': [11.03097157403479, 2.340702210663199, 0.8639787328311919, 0.2945174444947893], 'bp': 1.0, 'sys_len': 4714, 'ref_len': 2418}
+flores_100_eng-asm: {'score': 0.020826577611533555, 'counts': [14, 1, 0, 0], 'totals': [676, 576, 488, 404], 'precisions': [2.0710059171597632, 0.1736111111111111, 0.10245901639344263, 0.06188118811881188], 'bp': 0.09531274745102213, 'sys_len': 676, 'ref_len': 2265}
+flores_100_eng-ben: {'score': 0.01255558724483446, 'counts': [9, 0, 0, 0], 'totals': [732, 632, 539, 463], 'precisions': [1.2295081967213115, 0.07911392405063292, 0.04638218923933209, 0.026997840172786176], 'bp': 0.119514576031408, 'sys_len': 732, 'ref_len': 2287}
+flores_100_eng-guj: {'score': 0.005070623889365187, 'counts': [24, 2, 0, 0], 'totals': [451, 351, 260, 175], 'precisions': [5.321507760532151, 0.5698005698005698, 0.19230769230769232, 0.14285714285714285], 'bp': 0.009438377626763366, 'sys_len': 451, 'ref_len': 2554}
+flores_100_eng-hin: {'score': 0.4758546959440391, 'counts': [313, 36, 8, 0], 'totals': [1867, 1767, 1667, 1567], 'precisions': [16.76486341724692, 2.037351443123939, 0.47990401919616077, 0.03190810465858328], 'bp': 0.5595565940385039, 'sys_len': 1867, 'ref_len': 2951}
+flores_100_eng-mar: {'score': 0.16833279889320024, 'counts': [50, 6, 2, 0], 'totals': [1392, 1292, 1192, 1092], 'precisions': [3.5919540229885056, 0.46439628482972134, 0.16778523489932887, 0.045787545787545784], 'bp': 0.5003093181021275, 'sys_len': 1392, 'ref_len': 2356}
+flores_100_eng-npi: {'score': 0.0665825447780552, 'counts': [38, 1, 0, 0], 'totals': [1276, 1176, 1077, 978], 'precisions': [2.9780564263322886, 0.08503401360544217, 0.04642525533890436, 0.02556237218813906], 'bp': 0.5056967074374724, 'sys_len': 1276, 'ref_len': 2146}
+flores_100_eng-ory: {'score': 0.00674083306156932, 'counts': [24, 2, 0, 0], 'totals': [405, 305, 224, 153], 'precisions': [5.925925925925926, 0.6557377049180327, 0.22321428571428573, 0.16339869281045752], 'bp': 0.010986246451159564, 'sys_len': 405, 'ref_len': 2232}
+flores_100_eng-pan: {'score': 0.0005772219050232465, 'counts': [10, 2, 1, 0], 'totals': [350, 250, 202, 162], 'precisions': [2.857142857142857, 0.8, 0.49504950495049505, 0.30864197530864196], 'bp': 0.0007508642254026759, 'sys_len': 350, 'ref_len': 2868}
+flores_100_eng-snd: {'score': 0.20705150183132615, 'counts': [212, 9, 1, 0], 'totals': [2415, 2315, 2215, 2115], 'precisions': [8.778467908902691, 0.38876889848812096, 0.045146726862302484, 0.02364066193853428], 'bp': 0.84280935875472, 'sys_len': 2415, 'ref_len': 2828}
+flores_100_eng-urd: {'score': 0.07635257627602246, 'counts': [98, 3, 0, 0], 'totals': [1842, 1742, 1642, 1542], 'precisions': [5.320304017372421, 0.17221584385763491, 0.030450669914738125, 0.01621271076523995], 'bp': 0.5235500259279596, 'sys_len': 1842, 'ref_len': 3034}
+flores_100_eng-ckb: {'score': 0.02922375808643238, 'counts': [26, 0, 0, 0], 'totals': [1183, 1083, 988, 895], 'precisions': [2.197802197802198, 0.046168051708217916, 0.025303643724696356, 0.013966480446927373], 'bp': 0.37764697990302504, 'sys_len': 1183, 'ref_len': 2335}
+flores_100_eng-cym: {'score': 2.2929460645835973, 'counts': [462, 100, 49, 28], 'totals': [4043, 3943, 3843, 3743], 'precisions': [11.427158050952263, 2.53613999492772, 1.2750455373406193, 0.7480630510285867], 'bp': 1.0, 'sys_len': 4043, 'ref_len': 2764}
+flores_100_eng-ell: {'score': 0.6872914057704959, 'counts': [375, 45, 10, 1], 'totals': [1767, 1667, 1567, 1467], 'precisions': [21.222410865874362, 2.699460107978404, 0.6381620931716656, 0.0681663258350375], 'bp': 0.5470131702846066, 'sys_len': 1767, 'ref_len': 2833}
+flores_100_eng-fas: {'score': 0.45679908720024903, 'counts': [269, 29, 5, 0], 'totals': [2000, 1900, 1800, 1701], 'precisions': [13.45, 1.5263157894736843, 0.2777777777777778, 0.029394473838918283], 'bp': 0.7139088399027201, 'sys_len': 2000, 'ref_len': 2674}
+flores_100_eng-gle: {'score': 1.6985927348594287, 'counts': [598, 105, 36, 13], 'totals': [4486, 4386, 4286, 4186], 'precisions': [13.330361123495319, 2.3939808481532148, 0.8399440037330844, 0.3105590062111801], 'bp': 1.0, 'sys_len': 4486, 'ref_len': 2981}
+flores_100_eng-hye: {'score': 0.1328001519130855, 'counts': [84, 5, 1, 0], 'totals': [1125, 1025, 925, 830], 'precisions': [7.466666666666667, 0.4878048780487805, 0.10810810810810811, 0.060240963855421686], 'bp': 0.33839021892438165, 'sys_len': 1125, 'ref_len': 2344}
+flores_100_eng-ita: {'score': 7.8199143590218805, 'counts': [1501, 686, 349, 181], 'totals': [6609, 6509, 6409, 6309], 'precisions': [22.711454077772736, 10.539253341527116, 5.445467311593072, 2.86891741955936], 'bp': 1.0, 'sys_len': 6609, 'ref_len': 2904}
+flores_100_eng-lav: {'score': 0.9381961138345585, 'counts': [309, 55, 11, 3], 'totals': [3069, 2969, 2869, 2769], 'precisions': [10.068426197458455, 1.852475581003705, 0.3834088532589753, 0.10834236186348863], 'bp': 1.0, 'sys_len': 3069, 'ref_len': 2362}
+flores_100_eng-lit: {'score': 0.9739254891959793, 'counts': [307, 53, 16, 1], 'totals': [2472, 2372, 2272, 2172], 'precisions': [12.419093851132686, 2.2344013490725128, 0.704225352112676, 0.04604051565377532], 'bp': 1.0, 'sys_len': 2472, 'ref_len': 2227}
+flores_100_eng-pus: {'score': 0.2662041892319114, 'counts': [324, 25, 1, 0], 'totals': [2218, 2118, 2018, 1918], 'precisions': [14.60775473399459, 1.1803588290840414, 0.049554013875123884, 0.026068821689259645], 'bp': 0.6890733366373171, 'sys_len': 2218, 'ref_len': 3044}
+flores_100_eng-tgk: {'score': 0.07184756375777424, 'counts': [55, 5, 0, 0], 'totals': [3522, 3422, 3322, 3222], 'precisions': [1.5616127200454288, 0.14611338398597312, 0.015051173991571343, 0.007759155803848541], 'bp': 1.0, 'sys_len': 3522, 'ref_len': 2709}
+flores_100_eng-ceb: {'score': 3.9032212887660727, 'counts': [979, 260, 104, 47], 'totals': [4963, 4863, 4763, 4663], 'precisions': [19.725972194237357, 5.346493933785729, 2.1834977955070336, 1.0079348059189364], 'bp': 1.0, 'sys_len': 4963, 'ref_len': 3065}
+flores_100_eng-ind: {'score': 4.472957036417225, 'counts': [829, 270, 118, 60], 'totals': [4612, 4512, 4412, 4312], 'precisions': [17.97484822202949, 5.98404255319149, 2.674524025385313, 1.391465677179963], 'bp': 1.0, 'sys_len': 4612, 'ref_len': 2425}
+flores_100_eng-jav: {'score': 1.0115185608528057, 'counts': [308, 64, 24, 10], 'totals': [4762, 4662, 4562, 4462], 'precisions': [6.467870642587148, 1.3728013728013728, 0.526085050416484, 0.22411474675033619], 'bp': 1.0, 'sys_len': 4762, 'ref_len': 2382}
+flores_100_eng-mri: {'score': 2.037424462071286, 'counts': [841, 164, 42, 18], 'totals': [5111, 5011, 4911, 4811], 'precisions': [16.454705537076894, 3.2727998403512273, 0.855222968845449, 0.3741425898981501], 'bp': 1.0, 'sys_len': 5111, 'ref_len': 3576}
+flores_100_eng-msa: {'score': 4.235665407607995, 'counts': [773, 256, 112, 50], 'totals': [4459, 4359, 4259, 4159], 'precisions': [17.335725498990804, 5.872906629961, 2.6297252876262034, 1.202212070209185], 'bp': 1.0, 'sys_len': 4459, 'ref_len': 2434}
+flores_100_eng-tgl: {'score': 4.286122557050417, 'counts': [970, 277, 122, 67], 'totals': [5202, 5102, 5002, 4902], 'precisions': [18.646674356016916, 5.429243433947471, 2.4390243902439024, 1.3667890656874746], 'bp': 1.0, 'sys_len': 5202, 'ref_len': 3121}
+flores_100_eng-ibo: {'score': 1.1271551970295255, 'counts': [419, 51, 20, 6], 'totals': [3702, 3602, 3502, 3402], 'precisions': [11.318206374932469, 1.4158800666296503, 0.5711022272986864, 0.1763668430335097], 'bp': 1.0, 'sys_len': 3702, 'ref_len': 2912}
+flores_100_eng-kam: {'score': 1.2172083249939532, 'counts': [262, 52, 23, 9], 'totals': [3517, 3417, 3319, 3221], 'precisions': [7.449530850156384, 1.5218027509511267, 0.692979813196746, 0.279416330332195], 'bp': 1.0, 'sys_len': 3517, 'ref_len': 2432}
+flores_100_eng-kea: {'score': 2.0579200352302323, 'counts': [530, 151, 63, 25], 'totals': [5300, 5200, 5100, 5000], 'precisions': [10.0, 2.9038461538461537, 1.2352941176470589, 0.5], 'bp': 1.0, 'sys_len': 5300, 'ref_len': 2637}
+flores_100_eng-lin: {'score': 1.035115063422843, 'counts': [594, 76, 25, 7], 'totals': [5273, 5173, 5073, 4973], 'precisions': [11.264934572349706, 1.4691668277595207, 0.49280504632367433, 0.1407601045646491], 'bp': 1.0, 'sys_len': 5273, 'ref_len': 2835}
+flores_100_eng-lug: {'score': 0.5826975092149527, 'counts': [219, 37, 12, 1], 'totals': [3181, 3081, 2983, 2885], 'precisions': [6.884627475636592, 1.2009087958455047, 0.4022795843110962, 0.03466204506065858], 'bp': 1.0, 'sys_len': 3181, 'ref_len': 2143}
+flores_100_eng-nso: {'score': 0.8023984569979615, 'counts': [468, 68, 21, 6], 'totals': [5728, 5628, 5528, 5428], 'precisions': [8.170391061452515, 1.2082444918265813, 0.37988422575976843, 0.1105379513633014], 'bp': 1.0, 'sys_len': 5728, 'ref_len': 3243}
+flores_100_eng-nya: {'score': 1.7651413279313732, 'counts': [308, 88, 36, 14], 'totals': [3596, 3496, 3396, 3296], 'precisions': [8.565072302558399, 2.517162471395881, 1.0600706713780919, 0.42475728155339804], 'bp': 1.0, 'sys_len': 3596, 'ref_len': 2379}
+flores_100_eng-sna: {'score': 1.2131097143953693, 'counts': [224, 51, 21, 7], 'totals': [3118, 3018, 2920, 2822], 'precisions': [7.184092366901861, 1.6898608349900597, 0.7191780821917808, 0.24805102763997164], 'bp': 1.0, 'sys_len': 3118, 'ref_len': 2142}
+flores_100_eng-swh: {'score': 1.3676924185673065, 'counts': [293, 70, 28, 10], 'totals': [3731, 3631, 3531, 3431], 'precisions': [7.853122487268829, 1.9278435692646654, 0.7929764939110734, 0.29146021568055963], 'bp': 1.0, 'sys_len': 3731, 'ref_len': 2535}
+flores_100_eng-umb: {'score': 1.0883311572154521, 'counts': [227, 35, 17, 9], 'totals': [3203, 3103, 3003, 2903], 'precisions': [7.087105838276615, 1.1279407025459234, 0.5661005661005661, 0.3100241129865656], 'bp': 1.0, 'sys_len': 3203, 'ref_len': 2351}
+flores_100_eng-wol: {'score': 0.8092149820739811, 'counts': [384, 51, 18, 6], 'totals': [4864, 4764, 4664, 4564], 'precisions': [7.894736842105263, 1.070528967254408, 0.38593481989708406, 0.13146362839614373], 'bp': 1.0, 'sys_len': 4864, 'ref_len': 2888}
+flores_100_eng-xho: {'score': 0.6871699588981355, 'counts': [204, 34, 11, 3], 'totals': [3335, 3235, 3135, 3035], 'precisions': [6.116941529235382, 1.0510046367851622, 0.3508771929824561, 0.09884678747940692], 'bp': 1.0, 'sys_len': 3335, 'ref_len': 1934}
+flores_100_eng-yor: {'score': 0.24574275167642556, 'counts': [250, 18, 2, 0], 'totals': [3484, 3384, 3285, 3186], 'precisions': [7.175660160734788, 0.5319148936170213, 0.060882800608828, 0.015693659761456372], 'bp': 1.0, 'sys_len': 3484, 'ref_len': 2844}
+flores_100_eng-zul: {'score': 0.3901957678786845, 'counts': [189, 25, 4, 1], 'totals': [3157, 3057, 2957, 2857], 'precisions': [5.986696230598669, 0.8177952240758914, 0.13527223537368954, 0.03500175008750438], 'bp': 1.0, 'sys_len': 3157, 'ref_len': 1937}
+flores_100_eng-amh: {'score': 0.028154981266223712, 'counts': [17, 0, 0, 0], 'totals': [750, 650, 553, 461], 'precisions': [2.2666666666666666, 0.07692307692307693, 0.045207956600361664, 0.027114967462039046], 'bp': 0.23285639792581928, 'sys_len': 750, 'ref_len': 1843}
+flores_100_eng-ara: {'score': 0.47224528844473723, 'counts': [260, 25, 3, 0], 'totals': [2213, 2113, 2013, 1913], 'precisions': [11.74875734297334, 1.183151916706105, 0.14903129657228018, 0.026136957658128592], 'bp': 0.9789858028189994, 'sys_len': 2213, 'ref_len': 2260}
+flores_100_eng-ful: {'score': 0.828802046571911, 'counts': [340, 40, 18, 8], 'totals': [4665, 4565, 4465, 4365], 'precisions': [7.288317256162915, 0.8762322015334063, 0.40313549832026874, 0.18327605956471935], 'bp': 1.0, 'sys_len': 4665, 'ref_len': 2620}
+flores_100_eng-mlt: {'score': 2.0794711963821815, 'counts': [277, 77, 34, 19], 'totals': [3082, 2982, 2882, 2782], 'precisions': [8.98767034393251, 2.5821596244131455, 1.179736294240111, 0.6829618979151689], 'bp': 1.0, 'sys_len': 3082, 'ref_len': 2299}
+flores_100_eng-orm: {'score': 0.4357060872539927, 'counts': [168, 19, 6, 2], 'totals': [3362, 3262, 3163, 3064], 'precisions': [4.997025580011898, 0.5824647455548743, 0.18969332911792602, 0.06527415143603134], 'bp': 1.0, 'sys_len': 3362, 'ref_len': 2317}
+flores_100_eng-som: {'score': 1.4125042538875958, 'counts': [293, 57, 25, 13], 'totals': [3569, 3469, 3369, 3269], 'precisions': [8.209582516110956, 1.6431248198328048, 0.7420599584446423, 0.3976751300091771], 'bp': 1.0, 'sys_len': 3569, 'ref_len': 2771}
+flores_100_eng-azj: {'score': 0.8392776337908661, 'counts': [254, 38, 12, 3], 'totals': [3045, 2945, 2845, 2745], 'precisions': [8.341543513957307, 1.2903225806451613, 0.421792618629174, 0.1092896174863388], 'bp': 1.0, 'sys_len': 3045, 'ref_len': 2400}
+flores_100_eng-kaz: {'score': 0.08604649504720736, 'counts': [42, 2, 0, 0], 'totals': [2245, 2145, 2045, 1945], 'precisions': [1.8708240534521159, 0.09324009324009325, 0.02444987775061125, 0.012853470437017995], 'bp': 1.0, 'sys_len': 2245, 'ref_len': 2074}
+flores_100_eng-kir: {'score': 0.151245158246591, 'counts': [74, 5, 1, 0], 'totals': [2591, 2491, 2391, 2291], 'precisions': [2.856040138942493, 0.20072260136491368, 0.04182350480970305, 0.02182453077258839], 'bp': 1.0, 'sys_len': 2591, 'ref_len': 2121}
+flores_100_eng-tur: {'score': 1.888965352047203, 'counts': [351, 88, 39, 17], 'totals': [3713, 3613, 3513, 3413], 'precisions': [9.453272286560733, 2.435649045114863, 1.1101622544833476, 0.4980955171403457], 'bp': 1.0, 'sys_len': 3713, 'ref_len': 2169}
+flores_100_eng-uzb: {'score': 0.42697052432691135, 'counts': [176, 28, 6, 2], 'totals': [3804, 3704, 3604, 3504], 'precisions': [4.6267087276550996, 0.755939524838013, 0.16648168701442842, 0.05707762557077625], 'bp': 1.0, 'sys_len': 3804, 'ref_len': 2244}
+flores_100_eng-kan: {'score': 0.0056234891396933035, 'counts': [23, 1, 0, 0], 'totals': [345, 245, 167, 99], 'precisions': [6.666666666666667, 0.40816326530612246, 0.2994011976047904, 0.25252525252525254], 'bp': 0.008349887223511985, 'sys_len': 345, 'ref_len': 1996}
+flores_100_eng-mal: {'score': 0.16526550624330155, 'counts': [75, 2, 1, 0], 'totals': [1714, 1614, 1516, 1418], 'precisions': [4.3757292882147025, 0.12391573729863693, 0.06596306068601583, 0.03526093088857546], 'bp': 0.8769793100280611, 'sys_len': 1714, 'ref_len': 1939}
+flores_100_eng-tam: {'score': 0.013557112195401679, 'counts': [33, 0, 0, 0], 'totals': [594, 494, 429, 370], 'precisions': [5.555555555555555, 0.10121457489878542, 0.05827505827505827, 0.033783783783783786], 'bp': 0.07432361093606284, 'sys_len': 594, 'ref_len': 2138}
+flores_100_eng-tel: {'score': 0.024407146350971562, 'counts': [32, 9, 2, 0], 'totals': [412, 312, 226, 146], 'precisions': [7.766990291262136, 2.8846153846153846, 0.8849557522123894, 0.3424657534246575], 'bp': 0.015119838752337888, 'sys_len': 412, 'ref_len': 2139}
+flores_100_eng-mya: {'score': 0.0004082093187892356, 'counts': [4, 2, 1, 0], 'totals': [121, 21, 13, 10], 'precisions': [3.3057851239669422, 9.523809523809524, 7.6923076923076925, 5.0], 'bp': 6.919981306658579e-05, 'sys_len': 121, 'ref_len': 1280}
+flores_100_eng-zho_simpl: {'score': 2.221390275851284, 'counts': [36, 6, 2, 0], 'totals': [247, 147, 108, 74], 'precisions': [14.574898785425102, 4.081632653061225, 1.8518518518518519, 0.6756756756756757], 'bp': 0.7562734765699449, 'sys_len': 247, 'ref_len': 316}
+flores_100_eng-zho_trad: {'score': 0.10952522752817959, 'counts': [39, 4, 1, 0], 'totals': [2848, 2748, 2670, 2594], 'precisions': [1.3693820224719102, 0.14556040756914118, 0.03745318352059925, 0.01927525057825752], 'bp': 1.0, 'sys_len': 2848, 'ref_len': 226}
+flores_100_eng-est: {'score': 1.721061095791188, 'counts': [427, 117, 36, 15], 'totals': [4339, 4239, 4139, 4039], 'precisions': [9.840977183682876, 2.760084925690021, 0.8697753080454216, 0.37137905422134193], 'bp': 1.0, 'sys_len': 4339, 'ref_len': 2118}
+flores_100_eng-fin: {'score': 2.253463583406634, 'counts': [412, 111, 43, 20], 'totals': [3666, 3566, 3466, 3366], 'precisions': [11.238406983087835, 3.112731351654515, 1.2406231967686094, 0.5941770647653001], 'bp': 1.0, 'sys_len': 3666, 'ref_len': 1982}
+flores_100_eng-hau: {'score': 0.7635233143748275, 'counts': [415, 52, 17, 6], 'totals': [5196, 5096, 4996, 4896], 'precisions': [7.986913010007698, 1.0204081632653061, 0.3402722177742194, 0.12254901960784313], 'bp': 1.0, 'sys_len': 5196, 'ref_len': 2926}
+flores_100_eng-heb: {'score': 0.5784921420324689, 'counts': [166, 20, 6, 1], 'totals': [1766, 1666, 1567, 1470], 'precisions': [9.39977349943375, 1.2004801920768307, 0.3828972559029994, 0.06802721088435375], 'bp': 0.7856663222747541, 'sys_len': 1766, 'ref_len': 2192}
+flores_100_eng-hun: {'score': 3.1016930493576047, 'counts': [797, 199, 78, 27], 'totals': [4510, 4410, 4310, 4210], 'precisions': [17.671840354767184, 4.512471655328798, 1.8097447795823667, 0.6413301662707839], 'bp': 1.0, 'sys_len': 4510, 'ref_len': 2405}
+flores_100_eng-jpn: {'score': 0.023393869342075924, 'counts': [2, 0, 0, 0], 'totals': [1923, 1823, 1758, 1693], 'precisions': [0.10400416016640665, 0.027427317608337904, 0.01422070534698521, 0.007383343177790904], 'bp': 1.0, 'sys_len': 1923, 'ref_len': 115}
+flores_100_eng-kat: {'score': 0.09017724171370115, 'counts': [91, 4, 0, 0], 'totals': [984, 884, 789, 695], 'precisions': [9.247967479674797, 0.45248868778280543, 0.06337135614702155, 0.03597122302158273], 'bp': 0.2885502074569559, 'sys_len': 984, 'ref_len': 2207}
+flores_100_eng-khm: {'score': 0.02420143928376331, 'counts': [10, 2, 0, 0], 'totals': [181, 81, 53, 32], 'precisions': [5.524861878453039, 2.4691358024691357, 0.9433962264150944, 0.78125], 'bp': 0.013591066984393404, 'sys_len': 181, 'ref_len': 959}
+flores_100_eng-kor: {'score': 0.6167677684311783, 'counts': [154, 14, 3, 2], 'totals': [1646, 1546, 1446, 1346], 'precisions': [9.356014580801943, 0.9055627425614489, 0.2074688796680498, 0.1485884101040119], 'bp': 0.8627497388628191, 'sys_len': 1646, 'ref_len': 1889}
+flores_100_eng-lao: {'score': 0.09923845782046391, 'counts': [18, 9, 6, 4], 'totals': [162, 62, 42, 27], 'precisions': [11.11111111111111, 14.516129032258064, 14.285714285714286, 14.814814814814815], 'bp': 0.007300933323837526, 'sys_len': 162, 'ref_len': 959}
+flores_100_eng-luo: {'score': 0.989695038570681, 'counts': [397, 68, 25, 7], 'totals': [4862, 4762, 4662, 4562], 'precisions': [8.16536404771699, 1.4279714405711885, 0.5362505362505362, 0.15344147303814118], 'bp': 1.0, 'sys_len': 4862, 'ref_len': 2926}
+flores_100_eng-mon: {'score': 0.08268790596039641, 'counts': [25, 3, 0, 0], 'totals': [2035, 1935, 1835, 1735], 'precisions': [1.2285012285012284, 0.15503875968992248, 0.027247956403269755, 0.01440922190201729], 'bp': 0.8891896670646459, 'sys_len': 2035, 'ref_len': 2274}
+flores_100_eng-tha: {'score': 2.7581573955965455, 'counts': [41, 15, 9, 4], 'totals': [281, 181, 137, 102], 'precisions': [14.590747330960854, 8.287292817679559, 6.569343065693431, 3.9215686274509802], 'bp': 0.3691909529440973, 'sys_len': 281, 'ref_len': 561}
+flores_100_eng-vie: {'score': 2.4306706875365, 'counts': [471, 131, 52, 15], 'totals': [3540, 3440, 3340, 3240], 'precisions': [13.305084745762711, 3.808139534883721, 1.5568862275449102, 0.46296296296296297], 'bp': 0.9887641638186618, 'sys_len': 3540, 'ref_len': 3580}
+flores_100_afr-eng: {'score': 13.03534465371622, 'counts': [1622, 970, 635, 421], 'totals': [6329, 6229, 6129, 6029], 'precisions': [25.628061305103493, 15.5723230052978, 10.360580845162342, 6.982915906452148], 'bp': 1.0, 'sys_len': 6329, 'ref_len': 2572}
+flores_100_dan-eng: {'score': 15.225034835231273, 'counts': [1842, 1081, 707, 479], 'totals': [6103, 6003, 5903, 5803], 'precisions': [30.18187776503359, 18.007662835249043, 11.976960867355581, 8.254351197656385], 'bp': 1.0, 'sys_len': 6103, 'ref_len': 2572}
+flores_100_deu-eng: {'score': 12.250587826719853, 'counts': [1860, 1037, 629, 400], 'totals': [6964, 6864, 6764, 6664], 'precisions': [26.708788052843193, 15.107808857808857, 9.299231224127736, 6.002400960384153], 'bp': 1.0, 'sys_len': 6964, 'ref_len': 2572}
+flores_100_isl-eng: {'score': 2.8249163552792997, 'counts': [969, 279, 127, 63], 'totals': [7785, 7685, 7585, 7485], 'precisions': [12.447013487475916, 3.630448926480156, 1.6743572841133816, 0.8416833667334669], 'bp': 1.0, 'sys_len': 7785, 'ref_len': 2572}
+flores_100_ltz-eng: {'score': 5.2572628298471065, 'counts': [1202, 400, 179, 85], 'totals': [5714, 5614, 5514, 5414], 'precisions': [21.03605180259013, 7.125044531528322, 3.2462821907870874, 1.5700036941263391], 'bp': 1.0, 'sys_len': 5714, 'ref_len': 2572}
+flores_100_nld-eng: {'score': 10.041568100507344, 'counts': [1701, 829, 487, 298], 'totals': [6849, 6749, 6649, 6549], 'precisions': [24.83574244415243, 12.283301229811824, 7.3244096856670176, 4.550313024889296], 'bp': 1.0, 'sys_len': 6849, 'ref_len': 2572}
+flores_100_nob-eng: {'score': 11.145685733552924, 'counts': [1714, 913, 553, 339], 'totals': [6754, 6654, 6554, 6454], 'precisions': [25.377554042049155, 13.72107003306282, 8.43759536161123, 5.252556554074992], 'bp': 1.0, 'sys_len': 6754, 'ref_len': 2572}
+flores_100_swe-eng: {'score': 13.966793058815595, 'counts': [1844, 1105, 729, 495], 'totals': [6781, 6681, 6581, 6481], 'precisions': [27.193629258221502, 16.53944020356234, 11.077343868712962, 7.637710229902793], 'bp': 1.0, 'sys_len': 6781, 'ref_len': 2572}
+flores_100_ast-eng: {'score': 9.380180280769185, 'counts': [1606, 774, 436, 266], 'totals': [6720, 6620, 6520, 6420], 'precisions': [23.898809523809526, 11.691842900302115, 6.6871165644171775, 4.1433021806853585], 'bp': 1.0, 'sys_len': 6720, 'ref_len': 2572}
+flores_100_cat-eng: {'score': 13.62349126729782, 'counts': [1864, 1088, 708, 476], 'totals': [6825, 6725, 6625, 6525], 'precisions': [27.31135531135531, 16.178438661710036, 10.686792452830188, 7.295019157088123], 'bp': 1.0, 'sys_len': 6825, 'ref_len': 2572}
+flores_100_fra-eng: {'score': 12.506242454909756, 'counts': [1907, 1107, 715, 472], 'totals': [7497, 7397, 7297, 7197], 'precisions': [25.43684140322796, 14.965526564823577, 9.798547348225298, 6.558288175628734], 'bp': 1.0, 'sys_len': 7497, 'ref_len': 2572}
+flores_100_glg-eng: {'score': 9.779731425144378, 'counts': [1693, 844, 490, 287], 'totals': [6997, 6897, 6797, 6697], 'precisions': [24.196084036015435, 12.237204581702189, 7.209062821833162, 4.285500970583843], 'bp': 1.0, 'sys_len': 6997, 'ref_len': 2572}
+flores_100_oci-eng: {'score': 14.305903161619318, 'counts': [1782, 1022, 676, 457], 'totals': [6205, 6105, 6005, 5905], 'precisions': [28.7187751813054, 16.74037674037674, 11.257285595337219, 7.7392040643522435], 'bp': 1.0, 'sys_len': 6205, 'ref_len': 2572}
+flores_100_por-eng: {'score': 13.714232431957894, 'counts': [1893, 1161, 792, 564], 'totals': [7409, 7309, 7209, 7109], 'precisions': [25.550006748549063, 15.88452592693939, 10.986267166042447, 7.933605289070193], 'bp': 1.0, 'sys_len': 7409, 'ref_len': 2572}
+flores_100_ron-eng: {'score': 13.11680000921949, 'counts': [1856, 1060, 669, 438], 'totals': [6794, 6694, 6594, 6494], 'precisions': [27.31822196055343, 15.835076187630714, 10.145586897179253, 6.744687403757315], 'bp': 1.0, 'sys_len': 6794, 'ref_len': 2572}
+flores_100_spa-eng: {'score': 9.095939746707867, 'counts': [1722, 861, 488, 279], 'totals': [7520, 7420, 7320, 7220], 'precisions': [22.898936170212767, 11.60377358490566, 6.666666666666667, 3.8642659279778395], 'bp': 1.0, 'sys_len': 7520, 'ref_len': 2572}
+flores_100_bel-eng: {'score': 2.440812820158124, 'counts': [869, 192, 61, 21], 'totals': [5105, 5005, 4905, 4805], 'precisions': [17.02252693437806, 3.8361638361638364, 1.2436289500509683, 0.43704474505723206], 'bp': 1.0, 'sys_len': 5105, 'ref_len': 2572}
+flores_100_bos-eng: {'score': 13.782987800949112, 'counts': [1760, 929, 569, 363], 'totals': [5682, 5582, 5482, 5382], 'precisions': [30.97500879971841, 16.642780365460407, 10.379423568040862, 6.744704570791527], 'bp': 1.0, 'sys_len': 5682, 'ref_len': 2572}
+flores_100_bul-eng: {'score': 13.676853429460436, 'counts': [1732, 921, 568, 364], 'totals': [5692, 5592, 5492, 5392], 'precisions': [30.428671820098383, 16.469957081545065, 10.34231609613984, 6.750741839762611], 'bp': 1.0, 'sys_len': 5692, 'ref_len': 2572}
+flores_100_ces-eng: {'score': 12.647044271623294, 'counts': [1738, 898, 544, 346], 'totals': [5972, 5872, 5772, 5673], 'precisions': [29.102478231748158, 15.292915531335149, 9.424809424809425, 6.099065750044068], 'bp': 1.0, 'sys_len': 5972, 'ref_len': 2572}
+flores_100_hrv-eng: {'score': 12.280977913139765, 'counts': [1667, 856, 506, 303], 'totals': [5720, 5620, 5520, 5420], 'precisions': [29.143356643356643, 15.231316725978647, 9.166666666666666, 5.590405904059041], 'bp': 1.0, 'sys_len': 5720, 'ref_len': 2572}
+flores_100_mkd-eng: {'score': 10.149604468965482, 'counts': [1489, 707, 409, 254], 'totals': [5817, 5717, 5617, 5517], 'precisions': [25.597386969228126, 12.366625852719958, 7.281466975253694, 4.603951422874751], 'bp': 1.0, 'sys_len': 5817, 'ref_len': 2572}
+flores_100_pol-eng: {'score': 10.139440754495492, 'counts': [1653, 789, 439, 241], 'totals': [6162, 6062, 5962, 5862], 'precisions': [26.82570593962999, 13.01550643352029, 7.36330090573633, 4.11122483793927], 'bp': 1.0, 'sys_len': 6162, 'ref_len': 2572}
+flores_100_rus-eng: {'score': 11.875088489929638, 'counts': [1733, 864, 507, 311], 'totals': [6021, 5921, 5821, 5721], 'precisions': [28.78259425344627, 14.592129707819625, 8.7098436694726, 5.436112567732914], 'bp': 1.0, 'sys_len': 6021, 'ref_len': 2572}
+flores_100_slk-eng: {'score': 9.546687368797079, 'counts': [1520, 697, 397, 238], 'totals': [6043, 5943, 5843, 5743], 'precisions': [25.15306966738375, 11.728083459532224, 6.794454903303098, 4.14417551802194], 'bp': 1.0, 'sys_len': 6043, 'ref_len': 2572}
+flores_100_slv-eng: {'score': 10.579844077444468, 'counts': [1664, 782, 448, 273], 'totals': [6121, 6021, 5921, 5821], 'precisions': [27.185100473778796, 12.987875768144827, 7.566289478128694, 4.689915822023707], 'bp': 1.0, 'sys_len': 6121, 'ref_len': 2572}
+flores_100_srp-eng: {'score': 12.054363850638289, 'counts': [1695, 863, 510, 315], 'totals': [5927, 5827, 5727, 5627], 'precisions': [28.597941623080818, 14.81036553972885, 8.90518596123625, 5.59800959658788], 'bp': 1.0, 'sys_len': 5927, 'ref_len': 2572}
+flores_100_ukr-eng: {'score': 13.076694286652993, 'counts': [1727, 906, 555, 348], 'totals': [5821, 5721, 5621, 5521], 'precisions': [29.66844184847964, 15.836392239119036, 9.873687955879737, 6.303205940952726], 'bp': 1.0, 'sys_len': 5821, 'ref_len': 2572}
+flores_100_asm-eng: {'score': 0.34816404435225984, 'counts': [537, 33, 2, 0], 'totals': [3465, 3365, 3266, 3167], 'precisions': [15.497835497835498, 0.9806835066864784, 0.0612369871402327, 0.015787811809283233], 'bp': 1.0, 'sys_len': 3465, 'ref_len': 2572}
+flores_100_ben-eng: {'score': 0.7318422811181687, 'counts': [564, 49, 8, 2], 'totals': [3672, 3574, 3476, 3379], 'precisions': [15.359477124183007, 1.3710128707330722, 0.23014959723820483, 0.05918910920390648], 'bp': 1.0, 'sys_len': 3672, 'ref_len': 2572}
+flores_100_guj-eng: {'score': 0.4255593269839628, 'counts': [511, 32, 4, 0], 'totals': [3312, 3212, 3112, 3012], 'precisions': [15.428743961352657, 0.9962640099626401, 0.12853470437017994, 0.016600265604249667], 'bp': 1.0, 'sys_len': 3312, 'ref_len': 2572}
+flores_100_hin-eng: {'score': 2.4333953889354945, 'counts': [878, 164, 47, 18], 'totals': [4468, 4368, 4269, 4170], 'precisions': [19.65085049239033, 3.7545787545787546, 1.1009604122745373, 0.4316546762589928], 'bp': 1.0, 'sys_len': 4468, 'ref_len': 2572}
+flores_100_mar-eng: {'score': 1.18266041550918, 'counts': [684, 80, 19, 5], 'totals': [4189, 4089, 3989, 3889], 'precisions': [16.328479350680354, 1.9564685742235266, 0.47630985209325644, 0.1285677552069941], 'bp': 1.0, 'sys_len': 4189, 'ref_len': 2572}
+flores_100_npi-eng: {'score': 1.699714101095047, 'counts': [696, 86, 30, 13], 'totals': [4241, 4141, 4041, 3941], 'precisions': [16.41122376797925, 2.0767930451581744, 0.7423904974016332, 0.3298655163664045], 'bp': 1.0, 'sys_len': 4241, 'ref_len': 2572}
+flores_100_ory-eng: {'score': 0.4511483399524293, 'counts': [457, 34, 4, 0], 'totals': [3092, 2993, 2896, 2799], 'precisions': [14.780077619663649, 1.1359839625793517, 0.13812154696132597, 0.01786352268667381], 'bp': 1.0, 'sys_len': 3092, 'ref_len': 2572}
+flores_100_pan-eng: {'score': 0.5271227165811674, 'counts': [506, 28, 5, 1], 'totals': [3247, 3147, 3047, 2947], 'precisions': [15.583615645210964, 0.8897362567524627, 0.16409583196586808, 0.0339328130302002], 'bp': 1.0, 'sys_len': 3247, 'ref_len': 2572}
+flores_100_snd-eng: {'score': 0.6958427481363683, 'counts': [637, 45, 9, 3], 'totals': [4414, 4314, 4214, 4114], 'precisions': [14.431354780244677, 1.043115438108484, 0.21357380161366873, 0.07292173067574137], 'bp': 1.0, 'sys_len': 4414, 'ref_len': 2572}
+flores_100_urd-eng: {'score': 0.7620620932439912, 'counts': [671, 69, 13, 2], 'totals': [4498, 4398, 4298, 4198], 'precisions': [14.917741218319254, 1.5688949522510232, 0.3024662633783155, 0.04764173415912339], 'bp': 1.0, 'sys_len': 4498, 'ref_len': 2572}
+flores_100_ckb-eng: {'score': 0.7489836363810759, 'counts': [590, 47, 9, 3], 'totals': [4079, 3979, 3879, 3779], 'precisions': [14.464329492522678, 1.1812013068610203, 0.23201856148491878, 0.07938608097380259], 'bp': 1.0, 'sys_len': 4079, 'ref_len': 2572}
+flores_100_cym-eng: {'score': 4.026263860514842, 'counts': [1027, 289, 132, 62], 'totals': [5665, 5565, 5465, 5365], 'precisions': [18.128861429832302, 5.193171608265948, 2.4153705397987193, 1.1556383970177073], 'bp': 1.0, 'sys_len': 5665, 'ref_len': 2572}
+flores_100_ell-eng: {'score': 4.657247330700197, 'counts': [1105, 328, 126, 47], 'totals': [4773, 4673, 4573, 4473], 'precisions': [23.151058034778966, 7.019045580997218, 2.7553028646402797, 1.0507489380728818], 'bp': 1.0, 'sys_len': 4773, 'ref_len': 2572}
+flores_100_fas-eng: {'score': 2.5654504979860193, 'counts': [908, 174, 52, 22], 'totals': [4671, 4571, 4471, 4371], 'precisions': [19.439092271462215, 3.8066068693940056, 1.1630507716394543, 0.503317318691375], 'bp': 1.0, 'sys_len': 4671, 'ref_len': 2572}
+flores_100_gle-eng: {'score': 4.14805875247047, 'counts': [1064, 298, 142, 80], 'totals': [6057, 5957, 5857, 5757], 'precisions': [17.566452038963185, 5.002518045996307, 2.4244493768140685, 1.389612645475074], 'bp': 1.0, 'sys_len': 6057, 'ref_len': 2572}
+flores_100_hye-eng: {'score': 0.35433341042358024, 'counts': [585, 37, 3, 0], 'totals': [3940, 3840, 3740, 3640], 'precisions': [14.847715736040609, 0.9635416666666666, 0.08021390374331551, 0.013736263736263736], 'bp': 1.0, 'sys_len': 3940, 'ref_len': 2572}
+flores_100_ita-eng: {'score': 9.647169482151599, 'counts': [1729, 884, 508, 296], 'totals': [7328, 7228, 7128, 7028], 'precisions': [23.59443231441048, 12.23021582733813, 7.12682379349046, 4.21172453044963], 'bp': 1.0, 'sys_len': 7328, 'ref_len': 2572}
+flores_100_lav-eng: {'score': 2.1798717126802316, 'counts': [950, 173, 57, 26], 'totals': [5882, 5782, 5682, 5582], 'precisions': [16.150969058143488, 2.9920442753372534, 1.0031678986272439, 0.4657828735220351], 'bp': 1.0, 'sys_len': 5882, 'ref_len': 2572}
+flores_100_lit-eng: {'score': 3.159367513665389, 'counts': [960, 227, 89, 44], 'totals': [5561, 5461, 5361, 5261], 'precisions': [17.263082179464124, 4.156747848379418, 1.66013803394889, 0.8363429005892415], 'bp': 1.0, 'sys_len': 5561, 'ref_len': 2572}
+flores_100_pus-eng: {'score': 1.850087449904327, 'counts': [633, 96, 35, 19], 'totals': [4461, 4361, 4261, 4161], 'precisions': [14.189643577673168, 2.2013299701903235, 0.8214034264257216, 0.45662100456621], 'bp': 1.0, 'sys_len': 4461, 'ref_len': 2572}
+flores_100_tgk-eng: {'score': 1.1122757229186937, 'counts': [687, 82, 25, 8], 'totals': [5360, 5260, 5160, 5060], 'precisions': [12.817164179104477, 1.55893536121673, 0.4844961240310077, 0.15810276679841898], 'bp': 1.0, 'sys_len': 5360, 'ref_len': 2572}
+flores_100_ceb-eng: {'score': 5.4214903192926895, 'counts': [1186, 398, 194, 105], 'totals': [5927, 5827, 5727, 5627], 'precisions': [20.01012316517631, 6.830272867684915, 3.3874628950584946, 1.8660031988626267], 'bp': 1.0, 'sys_len': 5927, 'ref_len': 2572}
+flores_100_ind-eng: {'score': 11.362031226627412, 'counts': [1574, 746, 428, 265], 'totals': [5468, 5368, 5268, 5168], 'precisions': [28.78566203365033, 13.897168405365127, 8.12452543659833, 5.127708978328173], 'bp': 1.0, 'sys_len': 5468, 'ref_len': 2572}
+flores_100_jav-eng: {'score': 3.8066162218351587, 'counts': [1015, 269, 125, 63], 'totals': [5808, 5708, 5608, 5508], 'precisions': [17.475895316804408, 4.712683952347582, 2.2289586305278175, 1.1437908496732025], 'bp': 1.0, 'sys_len': 5808, 'ref_len': 2572}
+flores_100_mri-eng: {'score': 2.704800419981641, 'counts': [954, 220, 92, 44], 'totals': [6463, 6363, 6263, 6163], 'precisions': [14.760946928670895, 3.4574886060034573, 1.468944595241897, 0.7139380171994159], 'bp': 1.0, 'sys_len': 6463, 'ref_len': 2572}
+flores_100_msa-eng: {'score': 10.192906430870602, 'counts': [1496, 684, 400, 242], 'totals': [5655, 5555, 5455, 5355], 'precisions': [26.45446507515473, 12.313231323132314, 7.332722273143904, 4.519140989729225], 'bp': 1.0, 'sys_len': 5655, 'ref_len': 2572}
+flores_100_tgl-eng: {'score': 7.222621132841022, 'counts': [1369, 554, 285, 168], 'totals': [6195, 6095, 5995, 5895], 'precisions': [22.098466505246165, 9.089417555373256, 4.75396163469558, 2.849872773536896], 'bp': 1.0, 'sys_len': 6195, 'ref_len': 2572}
+flores_100_ibo-eng: {'score': 2.3876564269999583, 'counts': [794, 151, 68, 32], 'totals': [5474, 5374, 5274, 5174], 'precisions': [14.504932407745708, 2.8098250837365093, 1.2893439514599925, 0.6184770003865481], 'bp': 1.0, 'sys_len': 5474, 'ref_len': 2572}
+flores_100_kam-eng: {'score': 3.4792749730362647, 'counts': [847, 204, 103, 51], 'totals': [5140, 5040, 4940, 4840], 'precisions': [16.47859922178988, 4.0476190476190474, 2.08502024291498, 1.0537190082644627], 'bp': 1.0, 'sys_len': 5140, 'ref_len': 2572}
+flores_100_kea-eng: {'score': 6.750009936961824, 'counts': [1254, 483, 259, 148], 'totals': [5934, 5834, 5734, 5634], 'precisions': [21.132457027300305, 8.279053822420295, 4.516916637600279, 2.6269080582179622], 'bp': 1.0, 'sys_len': 5934, 'ref_len': 2572}
+flores_100_lin-eng: {'score': 2.2760987540427924, 'counts': [858, 166, 67, 31], 'totals': [5913, 5813, 5713, 5613], 'precisions': [14.510400811770674, 2.8556683296060554, 1.172763871871171, 0.5522893283449136], 'bp': 1.0, 'sys_len': 5913, 'ref_len': 2572}
+flores_100_lug-eng: {'score': 2.699336030869689, 'counts': [807, 163, 69, 29], 'totals': [4870, 4770, 4670, 4570], 'precisions': [16.570841889117045, 3.4171907756813416, 1.4775160599571735, 0.6345733041575492], 'bp': 1.0, 'sys_len': 4870, 'ref_len': 2572}
+flores_100_nso-eng: {'score': 2.515551531605936, 'counts': [878, 198, 87, 42], 'totals': [6462, 6362, 6262, 6162], 'precisions': [13.58712472918601, 3.1122288588494182, 1.3893324816352604, 0.6815968841285297], 'bp': 1.0, 'sys_len': 6462, 'ref_len': 2572}
+flores_100_nya-eng: {'score': 3.0054389368817223, 'counts': [871, 195, 84, 42], 'totals': [5357, 5257, 5157, 5057], 'precisions': [16.25910024267314, 3.709339927715427, 1.6288539848749273, 0.8305319359303935], 'bp': 1.0, 'sys_len': 5357, 'ref_len': 2572}
+flores_100_sna-eng: {'score': 3.2979319240372766, 'counts': [880, 202, 87, 42], 'totals': [4992, 4892, 4792, 4692], 'precisions': [17.628205128205128, 4.129190515126737, 1.815525876460768, 0.8951406649616368], 'bp': 1.0, 'sys_len': 4992, 'ref_len': 2572}
+flores_100_swh-eng: {'score': 3.4606372382197934, 'counts': [972, 237, 100, 51], 'totals': [5501, 5401, 5301, 5201], 'precisions': [17.669514633702963, 4.388076282169968, 1.8864365214110546, 0.9805806575658528], 'bp': 1.0, 'sys_len': 5501, 'ref_len': 2572}
+flores_100_umb-eng: {'score': 1.9195675938309233, 'counts': [798, 130, 45, 18], 'totals': [5139, 5039, 4939, 4839], 'precisions': [15.528312901342673, 2.579876959714229, 0.911115610447459, 0.3719776813391196], 'bp': 1.0, 'sys_len': 5139, 'ref_len': 2572}
+flores_100_wol-eng: {'score': 2.4090040786946436, 'counts': [868, 175, 76, 36], 'totals': [6078, 5978, 5878, 5778], 'precisions': [14.281013491280026, 2.927400468384075, 1.2929567880231372, 0.6230529595015576], 'bp': 1.0, 'sys_len': 6078, 'ref_len': 2572}
+flores_100_xho-eng: {'score': 2.967633341631721, 'counts': [833, 178, 78, 39], 'totals': [5062, 4962, 4862, 4762], 'precisions': [16.455946266297907, 3.5872632003224507, 1.6042780748663101, 0.8189836203275934], 'bp': 1.0, 'sys_len': 5062, 'ref_len': 2572}
+flores_100_yor-eng: {'score': 2.3236249203219645, 'counts': [786, 138, 58, 31], 'totals': [5237, 5137, 5037, 4937], 'precisions': [15.008592705747565, 2.68639283628577, 1.1514790549930514, 0.6279116872594693], 'bp': 1.0, 'sys_len': 5237, 'ref_len': 2572}
+flores_100_zul-eng: {'score': 2.2864587035419093, 'counts': [822, 147, 54, 25], 'totals': [5094, 4994, 4894, 4794], 'precisions': [16.13663133097762, 2.9435322386864238, 1.103391908459338, 0.5214851898206091], 'bp': 1.0, 'sys_len': 5094, 'ref_len': 2572}
+flores_100_amh-eng: {'score': 0.4368818561787449, 'counts': [532, 35, 5, 0], 'totals': [3514, 3414, 3314, 3214], 'precisions': [15.139442231075698, 1.0251903925014645, 0.15087507543753773, 0.015556938394523958], 'bp': 1.0, 'sys_len': 3514, 'ref_len': 2572}
+flores_100_ara-eng: {'score': 4.417875556065416, 'counts': [1057, 293, 115, 52], 'totals': [4847, 4747, 4647, 4547], 'precisions': [21.8073034866928, 6.172319359595534, 2.4747148698084787, 1.1436111722014515], 'bp': 1.0, 'sys_len': 4847, 'ref_len': 2572}
+flores_100_ful-eng: {'score': 2.119282747142511, 'counts': [788, 139, 59, 30], 'totals': [5719, 5619, 5519, 5419], 'precisions': [13.778632628081832, 2.4737497775404877, 1.0690342453342996, 0.5536076766931168], 'bp': 1.0, 'sys_len': 5719, 'ref_len': 2572}
+flores_100_mlt-eng: {'score': 5.847799146834625, 'counts': [1051, 370, 178, 92], 'totals': [4982, 4882, 4782, 4682], 'precisions': [21.09594540345243, 7.578861122490783, 3.7222919280635716, 1.9649722340879965], 'bp': 1.0, 'sys_len': 4982, 'ref_len': 2572}
+flores_100_orm-eng: {'score': 0.914264431043702, 'counts': [681, 67, 15, 6], 'totals': [5075, 4975, 4875, 4775], 'precisions': [13.41871921182266, 1.3467336683417086, 0.3076923076923077, 0.1256544502617801], 'bp': 1.0, 'sys_len': 5075, 'ref_len': 2572}
+flores_100_som-eng: {'score': 2.4343603192122565, 'counts': [807, 155, 66, 29], 'totals': [5261, 5161, 5061, 4961], 'precisions': [15.3392891085345, 3.00329393528386, 1.3040901007705987, 0.5845595646039105], 'bp': 1.0, 'sys_len': 5261, 'ref_len': 2572}
+flores_100_azj-eng: {'score': 2.077774115327497, 'counts': [871, 150, 50, 18], 'totals': [5163, 5063, 4963, 4863], 'precisions': [16.870036800309897, 2.9626703535453287, 1.007455168245013, 0.3701418877236274], 'bp': 1.0, 'sys_len': 5163, 'ref_len': 2572}
+flores_100_kaz-eng: {'score': 1.5702676268481452, 'counts': [727, 98, 29, 10], 'totals': [4445, 4345, 4245, 4145], 'precisions': [16.355455568053994, 2.2554660529344073, 0.6831566548881036, 0.24125452352231605], 'bp': 1.0, 'sys_len': 4445, 'ref_len': 2572}
+flores_100_kir-eng: {'score': 1.611923585314893, 'counts': [749, 102, 31, 12], 'totals': [4681, 4581, 4481, 4381], 'precisions': [16.000854518265328, 2.226588081204977, 0.6918098638696719, 0.2739100661949327], 'bp': 1.0, 'sys_len': 4681, 'ref_len': 2572}
+flores_100_tur-eng: {'score': 4.841402093393838, 'counts': [1156, 358, 165, 81], 'totals': [5784, 5684, 5584, 5484], 'precisions': [19.986168741355463, 6.298381421534131, 2.9548710601719197, 1.4770240700218817], 'bp': 1.0, 'sys_len': 5784, 'ref_len': 2572}
+flores_100_uzb-eng: {'score': 1.5945867072738829, 'counts': [793, 106, 40, 17], 'totals': [5604, 5504, 5404, 5304], 'precisions': [14.15060670949322, 1.9258720930232558, 0.7401924500370096, 0.32051282051282054], 'bp': 1.0, 'sys_len': 5604, 'ref_len': 2572}
+flores_100_kan-eng: {'score': 0.39404149223402357, 'counts': [525, 28, 3, 0], 'totals': [3244, 3144, 3044, 2946], 'precisions': [16.18372379778052, 0.8905852417302799, 0.09855453350854139, 0.01697216564833673], 'bp': 1.0, 'sys_len': 3244, 'ref_len': 2572}
+flores_100_mal-eng: {'score': 0.16782265969525192, 'counts': [609, 26, 0, 0], 'totals': [4126, 4026, 3926, 3826], 'precisions': [14.760058167716917, 0.6458022851465475, 0.01273560876209883, 0.006534239414532148], 'bp': 1.0, 'sys_len': 4126, 'ref_len': 2572}
+flores_100_tam-eng: {'score': 0.41700563764967036, 'counts': [530, 34, 4, 0], 'totals': [3456, 3356, 3256, 3156], 'precisions': [15.335648148148149, 1.0131108462455305, 0.12285012285012285, 0.015842839036755388], 'bp': 1.0, 'sys_len': 3456, 'ref_len': 2572}
+flores_100_tel-eng: {'score': 1.3821507008656642, 'counts': [558, 53, 18, 7], 'totals': [3330, 3230, 3131, 3032], 'precisions': [16.756756756756758, 1.6408668730650156, 0.5748961992973491, 0.23087071240105542], 'bp': 1.0, 'sys_len': 3330, 'ref_len': 2572}
+flores_100_mya-eng: {'score': 0.3607948464348955, 'counts': [444, 28, 2, 0], 'totals': [3070, 2971, 2881, 2792], 'precisions': [14.462540716612377, 0.9424436216762033, 0.06942034015966678, 0.01790830945558739], 'bp': 1.0, 'sys_len': 3070, 'ref_len': 2572}
+flores_100_zho_simpl-eng: {'score': 9.170200502632818, 'counts': [1577, 677, 355, 200], 'totals': [5873, 5773, 5673, 5573], 'precisions': [26.85169419376809, 11.727005023384722, 6.25771196897585, 3.5887313834559484], 'bp': 1.0, 'sys_len': 5873, 'ref_len': 2572}
+flores_100_zho_trad-eng: {'score': 8.712924095356309, 'counts': [1368, 525, 250, 135], 'totals': [4680, 4580, 4480, 4380], 'precisions': [29.23076923076923, 11.462882096069869, 5.580357142857143, 3.0821917808219177], 'bp': 1.0, 'sys_len': 4680, 'ref_len': 2572}
+flores_100_est-eng: {'score': 3.747245104111257, 'counts': [1025, 266, 132, 72], 'totals': [6172, 6072, 5972, 5872], 'precisions': [16.607258587167856, 4.380764163372859, 2.2103148024112524, 1.2261580381471389], 'bp': 1.0, 'sys_len': 6172, 'ref_len': 2572}
+flores_100_fin-eng: {'score': 7.271631500657163, 'counts': [1212, 443, 230, 138], 'totals': [5120, 5020, 4920, 4820], 'precisions': [23.671875, 8.824701195219124, 4.67479674796748, 2.863070539419087], 'bp': 1.0, 'sys_len': 5120, 'ref_len': 2572}
+flores_100_hau-eng: {'score': 2.1543551461285606, 'counts': [839, 150, 67, 34], 'totals': [6191, 6091, 5991, 5891], 'precisions': [13.551930221288968, 2.462649811196848, 1.1183441829410783, 0.5771515871668647], 'bp': 1.0, 'sys_len': 6191, 'ref_len': 2572}
+flores_100_heb-eng: {'score': 2.535604328199691, 'counts': [914, 188, 55, 23], 'totals': [4940, 4840, 4740, 4640], 'precisions': [18.502024291497975, 3.884297520661157, 1.160337552742616, 0.4956896551724138], 'bp': 1.0, 'sys_len': 4940, 'ref_len': 2572}
+flores_100_hun-eng: {'score': 9.976463900081626, 'counts': [1553, 704, 392, 226], 'totals': [5743, 5643, 5543, 5443], 'precisions': [27.041615880201984, 12.475633528265107, 7.071982680858741, 4.152121991548778], 'bp': 1.0, 'sys_len': 5743, 'ref_len': 2572}
+flores_100_jpn-eng: {'score': 6.816902324827626, 'counts': [1287, 411, 178, 83], 'totals': [4513, 4413, 4313, 4213], 'precisions': [28.517615776645247, 9.313392250169953, 4.1270577324368185, 1.9700925706147638], 'bp': 1.0, 'sys_len': 4513, 'ref_len': 2572}
+flores_100_kat-eng: {'score': 0.7170967969414873, 'counts': [642, 51, 10, 2], 'totals': [4118, 4018, 3918, 3820], 'precisions': [15.590092277804759, 1.2692882030861126, 0.2552322613578356, 0.05235602094240838], 'bp': 1.0, 'sys_len': 4118, 'ref_len': 2572}
+flores_100_khm-eng: {'score': 2.11888961296071, 'counts': [328, 59, 28, 15], 'totals': [1987, 1902, 1842, 1784], 'precisions': [16.50729743331656, 3.101997896950578, 1.520086862106406, 0.8408071748878924], 'bp': 0.744968242536932, 'sys_len': 1987, 'ref_len': 2572}
+flores_100_kor-eng: {'score': 2.9698077896592583, 'counts': [966, 202, 62, 28], 'totals': [4718, 4619, 4520, 4421], 'precisions': [20.474777448071215, 4.373240961247023, 1.3716814159292035, 0.6333408731056323], 'bp': 1.0, 'sys_len': 4718, 'ref_len': 2572}
+flores_100_lao-eng: {'score': 3.05727291680437, 'counts': [581, 97, 44, 23], 'totals': [2990, 2890, 2796, 2702], 'precisions': [19.431438127090303, 3.356401384083045, 1.5736766809728182, 0.851221317542561], 'bp': 1.0, 'sys_len': 2990, 'ref_len': 2572}
+flores_100_luo-eng: {'score': 2.3140582241374426, 'counts': [858, 177, 74, 32], 'totals': [6102, 6002, 5902, 5802], 'precisions': [14.060963618485742, 2.9490169943352216, 1.253812267028126, 0.5515339538090314], 'bp': 1.0, 'sys_len': 6102, 'ref_len': 2572}
+flores_100_mon-eng: {'score': 1.408329515461816, 'counts': [669, 77, 26, 10], 'totals': [4447, 4347, 4247, 4147], 'precisions': [15.043849786372835, 1.7713365539452497, 0.6121968448316458, 0.24113817217265493], 'bp': 1.0, 'sys_len': 4447, 'ref_len': 2572}
+flores_100_tha-eng: {'score': 1.224096514747148, 'counts': [329, 45, 11, 6], 'totals': [1794, 1695, 1622, 1557], 'precisions': [18.338907469342253, 2.6548672566371683, 0.6781750924784217, 0.3853564547206166], 'bp': 0.6481275396856899, 'sys_len': 1794, 'ref_len': 2572}
+flores_100_vie-eng: {'score': 4.002573300794949, 'counts': [1008, 278, 119, 63], 'totals': [5500, 5400, 5300, 5200], 'precisions': [18.327272727272728, 5.148148148148148, 2.2452830188679247, 1.2115384615384615], 'bp': 1.0, 'sys_len': 5500, 'ref_len': 2572}
+crows_pairs: {'accuracy': 65.18567639257294}
+agieval-chinese: {'agieval-gaokao-chinese': 20.32520325203252, 'agieval-gaokao-english': 59.150326797385624, 'agieval-gaokao-geography': 33.165829145728644, 'agieval-gaokao-history': 35.319148936170215, 'agieval-gaokao-biology': 23.809523809523807, 'agieval-gaokao-chemistry': 26.570048309178745, 'agieval-gaokao-physics': 27.27272727272727, 'agieval-gaokao-mathqa': 24.216524216524217, 'agieval-logiqa-zh': 30.721966205837177, 'agieval-jec-qa-kd': 15.6, 'agieval-jec-qa-ca': 17.299999999999997, 'agieval-gaokao-mathcloze': 2.5423728813559325, 'naive_average': 26.33280590220535}
+agieval-english: {'agieval-lsat-ar': 21.73913043478261, 'agieval-lsat-lr': 23.92156862745098, 'agieval-lsat-rc': 25.650557620817843, 'agieval-logiqa-en': 29.80030721966206, 'agieval-sat-math': 24.545454545454547, 'agieval-sat-en': 37.86407766990291, 'agieval-sat-en-without-passage': 25.24271844660194, 'agieval-aqua-rat': 20.47244094488189, 'agieval-math': 4.7, 'naive_average': 23.770695056617196}
+agieval-gaokao: {'agieval-gaokao-chinese': 20.32520325203252, 'agieval-gaokao-english': 59.150326797385624, 'agieval-gaokao-geography': 33.165829145728644, 'agieval-gaokao-history': 35.319148936170215, 'agieval-gaokao-biology': 23.809523809523807, 'agieval-gaokao-chemistry': 26.570048309178745, 'agieval-gaokao-physics': 27.27272727272727, 'agieval-gaokao-mathqa': 24.216524216524217, 'agieval-gaokao-mathcloze': 2.5423728813559325, 'naive_average': 28.041300513402994}
+agieval: {'agieval-gaokao-chinese': 20.32520325203252, 'agieval-gaokao-english': 59.150326797385624, 'agieval-gaokao-geography': 33.165829145728644, 'agieval-gaokao-history': 35.319148936170215, 'agieval-gaokao-biology': 23.809523809523807, 'agieval-gaokao-chemistry': 26.570048309178745, 'agieval-gaokao-physics': 27.27272727272727, 'agieval-gaokao-mathqa': 24.216524216524217, 'agieval-logiqa-zh': 30.721966205837177, 'agieval-lsat-ar': 21.73913043478261, 'agieval-lsat-lr': 23.92156862745098, 'agieval-lsat-rc': 25.650557620817843, 'agieval-logiqa-en': 29.80030721966206, 'agieval-sat-math': 24.545454545454547, 'agieval-sat-en': 37.86407766990291, 'agieval-sat-en-without-passage': 25.24271844660194, 'agieval-aqua-rat': 20.47244094488189, 'agieval-jec-qa-kd': 15.6, 'agieval-jec-qa-ca': 17.299999999999997, 'agieval-gaokao-mathcloze': 2.5423728813559325, 'agieval-math': 4.7, 'naive_average': 25.23475839695329}
+mmlu-humanities: {'lukaemon_mmlu_formal_logic': 23.809523809523807, 'lukaemon_mmlu_high_school_european_history': 38.18181818181819, 'lukaemon_mmlu_high_school_us_history': 46.07843137254902, 'lukaemon_mmlu_high_school_world_history': 45.56962025316456, 'lukaemon_mmlu_international_law': 58.67768595041323, 'lukaemon_mmlu_jurisprudence': 51.85185185185185, 'lukaemon_mmlu_logical_fallacies': 46.012269938650306, 'lukaemon_mmlu_moral_disputes': 42.48554913294797, 'lukaemon_mmlu_moral_scenarios': 24.24581005586592, 'lukaemon_mmlu_philosophy': 42.765273311897104, 'lukaemon_mmlu_prehistory': 41.9753086419753, 'lukaemon_mmlu_professional_law': 28.42242503259452, 'lukaemon_mmlu_world_religions': 55.55555555555556, 'naive_average': 41.97162485298519}
+mmlu-stem: {'lukaemon_mmlu_abstract_algebra': 25.0, 'lukaemon_mmlu_anatomy': 45.18518518518518, 'lukaemon_mmlu_astronomy': 44.73684210526316, 'lukaemon_mmlu_college_biology': 38.19444444444444, 'lukaemon_mmlu_college_chemistry': 31.0, 'lukaemon_mmlu_college_computer_science': 28.999999999999996, 'lukaemon_mmlu_college_mathematics': 28.999999999999996, 'lukaemon_mmlu_college_physics': 26.47058823529412, 'lukaemon_mmlu_computer_security': 52.0, 'lukaemon_mmlu_conceptual_physics': 41.702127659574465, 'lukaemon_mmlu_electrical_engineering': 32.41379310344827, 'lukaemon_mmlu_elementary_mathematics': 26.984126984126984, 'lukaemon_mmlu_high_school_biology': 48.38709677419355, 'lukaemon_mmlu_high_school_chemistry': 32.01970443349754, 'lukaemon_mmlu_high_school_computer_science': 45.0, 'lukaemon_mmlu_high_school_mathematics': 24.074074074074073, 'lukaemon_mmlu_high_school_physics': 28.47682119205298, 'lukaemon_mmlu_high_school_statistics': 34.25925925925926, 'lukaemon_mmlu_machine_learning': 29.464285714285715, 'naive_average': 34.91412364024735}
+mmlu-social-science: {'lukaemon_mmlu_econometrics': 31.57894736842105, 'lukaemon_mmlu_high_school_geography': 58.080808080808076, 'lukaemon_mmlu_high_school_government_and_politics': 59.067357512953365, 'lukaemon_mmlu_high_school_macroeconomics': 37.69230769230769, 'lukaemon_mmlu_high_school_microeconomics': 33.61344537815126, 'lukaemon_mmlu_high_school_psychology': 49.908256880733944, 'lukaemon_mmlu_human_sexuality': 45.80152671755725, 'lukaemon_mmlu_professional_psychology': 36.76470588235294, 'lukaemon_mmlu_public_relations': 52.72727272727272, 'lukaemon_mmlu_security_studies': 31.428571428571427, 'lukaemon_mmlu_sociology': 48.756218905472636, 'lukaemon_mmlu_us_foreign_policy': 59.0, 'naive_average': 45.36828488121686}
+mmlu-other: {'lukaemon_mmlu_business_ethics': 50.0, 'lukaemon_mmlu_clinical_knowledge': 48.301886792452834, 'lukaemon_mmlu_college_medicine': 37.57225433526011, 'lukaemon_mmlu_global_facts': 35.0, 'lukaemon_mmlu_human_aging': 50.224215246636774, 'lukaemon_mmlu_management': 57.28155339805825, 'lukaemon_mmlu_marketing': 64.95726495726495, 'lukaemon_mmlu_medical_genetics': 49.0, 'lukaemon_mmlu_miscellaneous': 58.876117496807154, 'lukaemon_mmlu_nutrition': 43.13725490196079, 'lukaemon_mmlu_professional_accounting': 33.33333333333333, 'lukaemon_mmlu_professional_medicine': 37.5, 'lukaemon_mmlu_virology': 40.36144578313253, 'naive_average': 46.58040971114668}
+mmlu: {'lukaemon_mmlu_formal_logic': 23.809523809523807, 'lukaemon_mmlu_high_school_european_history': 38.18181818181819, 'lukaemon_mmlu_high_school_us_history': 46.07843137254902, 'lukaemon_mmlu_high_school_world_history': 45.56962025316456, 'lukaemon_mmlu_international_law': 58.67768595041323, 'lukaemon_mmlu_jurisprudence': 51.85185185185185, 'lukaemon_mmlu_logical_fallacies': 46.012269938650306, 'lukaemon_mmlu_moral_disputes': 42.48554913294797, 'lukaemon_mmlu_moral_scenarios': 24.24581005586592, 'lukaemon_mmlu_philosophy': 42.765273311897104, 'lukaemon_mmlu_prehistory': 41.9753086419753, 'lukaemon_mmlu_professional_law': 28.42242503259452, 'lukaemon_mmlu_world_religions': 55.55555555555556, 'lukaemon_mmlu_abstract_algebra': 25.0, 'lukaemon_mmlu_anatomy': 45.18518518518518, 'lukaemon_mmlu_astronomy': 44.73684210526316, 'lukaemon_mmlu_college_biology': 38.19444444444444, 'lukaemon_mmlu_college_chemistry': 31.0, 'lukaemon_mmlu_college_computer_science': 28.999999999999996, 'lukaemon_mmlu_college_mathematics': 28.999999999999996, 'lukaemon_mmlu_college_physics': 26.47058823529412, 'lukaemon_mmlu_computer_security': 52.0, 'lukaemon_mmlu_conceptual_physics': 41.702127659574465, 'lukaemon_mmlu_electrical_engineering': 32.41379310344827, 'lukaemon_mmlu_elementary_mathematics': 26.984126984126984, 'lukaemon_mmlu_high_school_biology': 48.38709677419355, 'lukaemon_mmlu_high_school_chemistry': 32.01970443349754, 'lukaemon_mmlu_high_school_computer_science': 45.0, 'lukaemon_mmlu_high_school_mathematics': 24.074074074074073, 'lukaemon_mmlu_high_school_physics': 28.47682119205298, 'lukaemon_mmlu_high_school_statistics': 34.25925925925926, 'lukaemon_mmlu_machine_learning': 29.464285714285715, 'lukaemon_mmlu_econometrics': 31.57894736842105, 'lukaemon_mmlu_high_school_geography': 58.080808080808076, 'lukaemon_mmlu_high_school_government_and_politics': 59.067357512953365, 'lukaemon_mmlu_high_school_macroeconomics': 37.69230769230769, 'lukaemon_mmlu_high_school_microeconomics': 33.61344537815126, 'lukaemon_mmlu_high_school_psychology': 49.908256880733944, 'lukaemon_mmlu_human_sexuality': 45.80152671755725, 'lukaemon_mmlu_professional_psychology': 36.76470588235294, 'lukaemon_mmlu_public_relations': 52.72727272727272, 'lukaemon_mmlu_security_studies': 31.428571428571427, 'lukaemon_mmlu_sociology': 48.756218905472636, 'lukaemon_mmlu_us_foreign_policy': 59.0, 'lukaemon_mmlu_business_ethics': 50.0, 'lukaemon_mmlu_clinical_knowledge': 48.301886792452834, 'lukaemon_mmlu_college_medicine': 37.57225433526011, 'lukaemon_mmlu_global_facts': 35.0, 'lukaemon_mmlu_human_aging': 50.224215246636774, 'lukaemon_mmlu_management': 57.28155339805825, 'lukaemon_mmlu_marketing': 64.95726495726495, 'lukaemon_mmlu_medical_genetics': 49.0, 'lukaemon_mmlu_miscellaneous': 58.876117496807154, 'lukaemon_mmlu_nutrition': 43.13725490196079, 'lukaemon_mmlu_professional_accounting': 33.33333333333333, 'lukaemon_mmlu_professional_medicine': 37.5, 'lukaemon_mmlu_virology': 40.36144578313253, 'naive_average': 41.38533714163187}
+mmlu-weighted: {'lukaemon_mmlu_formal_logic': 23.809523809523807, 'lukaemon_mmlu_high_school_european_history': 38.18181818181819, 'lukaemon_mmlu_high_school_us_history': 46.07843137254902, 'lukaemon_mmlu_high_school_world_history': 45.56962025316456, 'lukaemon_mmlu_international_law': 58.67768595041323, 'lukaemon_mmlu_jurisprudence': 51.85185185185185, 'lukaemon_mmlu_logical_fallacies': 46.012269938650306, 'lukaemon_mmlu_moral_disputes': 42.48554913294797, 'lukaemon_mmlu_moral_scenarios': 24.24581005586592, 'lukaemon_mmlu_philosophy': 42.765273311897104, 'lukaemon_mmlu_prehistory': 41.9753086419753, 'lukaemon_mmlu_professional_law': 28.42242503259452, 'lukaemon_mmlu_world_religions': 55.55555555555556, 'lukaemon_mmlu_abstract_algebra': 25.0, 'lukaemon_mmlu_anatomy': 45.18518518518518, 'lukaemon_mmlu_astronomy': 44.73684210526316, 'lukaemon_mmlu_college_biology': 38.19444444444444, 'lukaemon_mmlu_college_chemistry': 31.0, 'lukaemon_mmlu_college_computer_science': 28.999999999999996, 'lukaemon_mmlu_college_mathematics': 28.999999999999996, 'lukaemon_mmlu_college_physics': 26.47058823529412, 'lukaemon_mmlu_computer_security': 52.0, 'lukaemon_mmlu_conceptual_physics': 41.702127659574465, 'lukaemon_mmlu_electrical_engineering': 32.41379310344827, 'lukaemon_mmlu_elementary_mathematics': 26.984126984126984, 'lukaemon_mmlu_high_school_biology': 48.38709677419355, 'lukaemon_mmlu_high_school_chemistry': 32.01970443349754, 'lukaemon_mmlu_high_school_computer_science': 45.0, 'lukaemon_mmlu_high_school_mathematics': 24.074074074074073, 'lukaemon_mmlu_high_school_physics': 28.47682119205298, 'lukaemon_mmlu_high_school_statistics': 34.25925925925926, 'lukaemon_mmlu_machine_learning': 29.464285714285715, 'lukaemon_mmlu_econometrics': 31.57894736842105, 'lukaemon_mmlu_high_school_geography': 58.080808080808076, 'lukaemon_mmlu_high_school_government_and_politics': 59.067357512953365, 'lukaemon_mmlu_high_school_macroeconomics': 37.69230769230769, 'lukaemon_mmlu_high_school_microeconomics': 33.61344537815126, 'lukaemon_mmlu_high_school_psychology': 49.908256880733944, 'lukaemon_mmlu_human_sexuality': 45.80152671755725, 'lukaemon_mmlu_professional_psychology': 36.76470588235294, 'lukaemon_mmlu_public_relations': 52.72727272727272, 'lukaemon_mmlu_security_studies': 31.428571428571427, 'lukaemon_mmlu_sociology': 48.756218905472636, 'lukaemon_mmlu_us_foreign_policy': 59.0, 'lukaemon_mmlu_business_ethics': 50.0, 'lukaemon_mmlu_clinical_knowledge': 48.301886792452834, 'lukaemon_mmlu_college_medicine': 37.57225433526011, 'lukaemon_mmlu_global_facts': 35.0, 'lukaemon_mmlu_human_aging': 50.224215246636774, 'lukaemon_mmlu_management': 57.28155339805825, 'lukaemon_mmlu_marketing': 64.95726495726495, 'lukaemon_mmlu_medical_genetics': 49.0, 'lukaemon_mmlu_miscellaneous': 58.876117496807154, 'lukaemon_mmlu_nutrition': 43.13725490196079, 'lukaemon_mmlu_professional_accounting': 33.33333333333333, 'lukaemon_mmlu_professional_medicine': 37.5, 'lukaemon_mmlu_virology': 40.36144578313253, 'weighted_average': 39.930209371884345}
+ceval-stem: {'ceval-computer_network': 31.57894736842105, 'ceval-operating_system': 15.789473684210526, 'ceval-computer_architecture': 28.57142857142857, 'ceval-college_programming': 35.13513513513514, 'ceval-college_physics': 15.789473684210526, 'ceval-college_chemistry': 25.0, 'ceval-advanced_mathematics': 15.789473684210526, 'ceval-probability_and_statistics': 16.666666666666664, 'ceval-discrete_mathematics': 43.75, 'ceval-electrical_engineer': 21.62162162162162, 'ceval-metrology_engineer': 29.166666666666668, 'ceval-high_school_mathematics': 11.11111111111111, 'ceval-high_school_physics': 15.789473684210526, 'ceval-high_school_chemistry': 31.57894736842105, 'ceval-high_school_biology': 47.368421052631575, 'ceval-middle_school_mathematics': 15.789473684210526, 'ceval-middle_school_biology': 23.809523809523807, 'ceval-middle_school_physics': 47.368421052631575, 'ceval-middle_school_chemistry': 25.0, 'ceval-veterinary_medicine': 21.73913043478261, 'naive_average': 25.920669464004696}
+ceval-social-science: {'ceval-college_economics': 34.54545454545455, 'ceval-business_administration': 33.33333333333333, 'ceval-marxism': 47.368421052631575, 'ceval-mao_zedong_thought': 37.5, 'ceval-education_science': 31.03448275862069, 'ceval-teacher_qualification': 31.818181818181817, 'ceval-high_school_politics': 21.052631578947366, 'ceval-high_school_geography': 26.31578947368421, 'ceval-middle_school_politics': 23.809523809523807, 'ceval-middle_school_geography': 41.66666666666667, 'naive_average': 32.8444485037044}
+ceval-humanities: {'ceval-modern_chinese_history': 26.08695652173913, 'ceval-ideological_and_moral_cultivation': 42.10526315789473, 'ceval-logic': 27.27272727272727, 'ceval-law': 29.166666666666668, 'ceval-chinese_language_and_literature': 21.73913043478261, 'ceval-art_studies': 51.515151515151516, 'ceval-professional_tour_guide': 34.48275862068966, 'ceval-legal_professional': 13.043478260869565, 'ceval-high_school_chinese': 31.57894736842105, 'ceval-high_school_history': 45.0, 'ceval-middle_school_history': 31.818181818181817, 'naive_average': 32.16447833064763}
+ceval-other: {'ceval-civil_servant': 29.78723404255319, 'ceval-sports_science': 42.10526315789473, 'ceval-plant_protection': 54.54545454545454, 'ceval-basic_medicine': 57.89473684210527, 'ceval-clinical_medicine': 22.727272727272727, 'ceval-urban_and_rural_planner': 30.434782608695656, 'ceval-accountant': 30.612244897959183, 'ceval-fire_engineer': 41.935483870967744, 'ceval-environmental_impact_assessment_engineer': 22.58064516129032, 'ceval-tax_accountant': 24.489795918367346, 'ceval-physician': 30.612244897959183, 'naive_average': 35.24774169731998}
+ceval-hard: {'ceval-advanced_mathematics': 15.789473684210526, 'ceval-discrete_mathematics': 43.75, 'ceval-probability_and_statistics': 16.666666666666664, 'ceval-college_chemistry': 25.0, 'ceval-college_physics': 15.789473684210526, 'ceval-high_school_mathematics': 11.11111111111111, 'ceval-high_school_chemistry': 31.57894736842105, 'ceval-high_school_physics': 15.789473684210526, 'naive_average': 21.934393274853797}
+ceval: {'ceval-computer_network': 31.57894736842105, 'ceval-operating_system': 15.789473684210526, 'ceval-computer_architecture': 28.57142857142857, 'ceval-college_programming': 35.13513513513514, 'ceval-college_physics': 15.789473684210526, 'ceval-college_chemistry': 25.0, 'ceval-advanced_mathematics': 15.789473684210526, 'ceval-probability_and_statistics': 16.666666666666664, 'ceval-discrete_mathematics': 43.75, 'ceval-electrical_engineer': 21.62162162162162, 'ceval-metrology_engineer': 29.166666666666668, 'ceval-high_school_mathematics': 11.11111111111111, 'ceval-high_school_physics': 15.789473684210526, 'ceval-high_school_chemistry': 31.57894736842105, 'ceval-high_school_biology': 47.368421052631575, 'ceval-middle_school_mathematics': 15.789473684210526, 'ceval-middle_school_biology': 23.809523809523807, 'ceval-middle_school_physics': 47.368421052631575, 'ceval-middle_school_chemistry': 25.0, 'ceval-veterinary_medicine': 21.73913043478261, 'ceval-college_economics': 34.54545454545455, 'ceval-business_administration': 33.33333333333333, 'ceval-marxism': 47.368421052631575, 'ceval-mao_zedong_thought': 37.5, 'ceval-education_science': 31.03448275862069, 'ceval-teacher_qualification': 31.818181818181817, 'ceval-high_school_politics': 21.052631578947366, 'ceval-high_school_geography': 26.31578947368421, 'ceval-middle_school_politics': 23.809523809523807, 'ceval-middle_school_geography': 41.66666666666667, 'ceval-modern_chinese_history': 26.08695652173913, 'ceval-ideological_and_moral_cultivation': 42.10526315789473, 'ceval-logic': 27.27272727272727, 'ceval-law': 29.166666666666668, 'ceval-chinese_language_and_literature': 21.73913043478261, 'ceval-art_studies': 51.515151515151516, 'ceval-professional_tour_guide': 34.48275862068966, 'ceval-legal_professional': 13.043478260869565, 'ceval-high_school_chinese': 31.57894736842105, 'ceval-high_school_history': 45.0, 'ceval-middle_school_history': 31.818181818181817, 'ceval-civil_servant': 29.78723404255319, 'ceval-sports_science': 42.10526315789473, 'ceval-plant_protection': 54.54545454545454, 'ceval-basic_medicine': 57.89473684210527, 'ceval-clinical_medicine': 22.727272727272727, 'ceval-urban_and_rural_planner': 30.434782608695656, 'ceval-accountant': 30.612244897959183, 'ceval-fire_engineer': 41.935483870967744, 'ceval-environmental_impact_assessment_engineer': 22.58064516129032, 'ceval-tax_accountant': 24.489795918367346, 'ceval-physician': 30.612244897959183, 'naive_average': 30.54600566586119}
+bbh: {'error': "missing datasets: {'bbh-sports_understanding', 'bbh-word_sorting', 'bbh-boolean_expressions', 'bbh-ruin_names', 'bbh-salient_translation_error_detection', 'bbh-object_counting'}"}
+GaokaoBench: {'GaokaoBench_2010-2022_Math_II_MCQs': 22.477064220183486, 'GaokaoBench_2010-2022_Math_I_MCQs': 27.102803738317753, 'GaokaoBench_2010-2022_History_MCQs': 25.087108013937282, 'GaokaoBench_2010-2022_Biology_MCQs': 18.666666666666668, 'GaokaoBench_2010-2022_Political_Science_MCQs': 23.125, 'GaokaoBench_2010-2022_Physics_MCQs': 17.96875, 'GaokaoBench_2010-2022_Chemistry_MCQs': 20.967741935483872, 'GaokaoBench_2010-2013_English_MCQs': 26.666666666666668, 'GaokaoBench_2010-2022_Chinese_Modern_Lit': 14.942528735632186, 'GaokaoBench_2010-2022_English_Fill_in_Blanks': 19.5, 'GaokaoBench_2012-2022_English_Cloze_Test': 13.076923076923078, 'GaokaoBench_2010-2022_Geography_MCQs': 22.105263157894736, 'GaokaoBench_2010-2022_English_Reading_Comp': 9.361702127659575, 'GaokaoBench_2010-2022_Chinese_Lang_and_Usage_MCQs': 17.5, 'weighted_average': 20.64007421150278}
+flores_100_Indo-European-Germanic_English: {'flores_100_afr-eng': 13.03534465371622, 'flores_100_dan-eng': 15.225034835231273, 'flores_100_deu-eng': 12.250587826719853, 'flores_100_isl-eng': 2.8249163552792997, 'flores_100_ltz-eng': 5.2572628298471065, 'flores_100_nld-eng': 10.041568100507344, 'flores_100_nob-eng': 11.145685733552924, 'flores_100_swe-eng': 13.966793058815595, 'naive_average': 10.468399174208702}
+flores_100_English_Indo-European-Germanic: {'flores_100_eng-afr': 5.291068426491199, 'flores_100_eng-dan': 5.953618228222178, 'flores_100_eng-deu': 6.678003268512045, 'flores_100_eng-isl': 0.3111562659856718, 'flores_100_eng-ltz': 1.5657928856676124, 'flores_100_eng-nld': 5.317327082697318, 'flores_100_eng-nob': 4.29258578294697, 'flores_100_eng-swe': 7.365951790608669, 'naive_average': 4.596937966391458}
+flores_100_Indo-European-Romance_English: {'flores_100_ast-eng': 9.380180280769185, 'flores_100_cat-eng': 13.62349126729782, 'flores_100_fra-eng': 12.506242454909756, 'flores_100_glg-eng': 9.779731425144378, 'flores_100_oci-eng': 14.305903161619318, 'flores_100_por-eng': 13.714232431957894, 'flores_100_ron-eng': 13.11680000921949, 'flores_100_spa-eng': 9.095939746707867, 'naive_average': 11.940315097203213}
+flores_100_English_Indo-European-Romance: {'flores_100_eng-ast': 3.9644595965103386, 'flores_100_eng-cat': 10.794777957549641, 'flores_100_eng-fra': 13.616476405093605, 'flores_100_eng-glg': 4.558179948760268, 'flores_100_eng-oci': 4.205095725357185, 'flores_100_eng-por': 10.833119194508651, 'flores_100_eng-ron': 8.545419745875266, 'flores_100_eng-spa': 8.98715520100086, 'naive_average': 8.188085471831977}
+flores_100_Indo-European-Slavic_English: {'flores_100_bel-eng': 2.440812820158124, 'flores_100_bos-eng': 13.782987800949112, 'flores_100_bul-eng': 13.676853429460436, 'flores_100_ces-eng': 12.647044271623294, 'flores_100_hrv-eng': 12.280977913139765, 'flores_100_mkd-eng': 10.149604468965482, 'flores_100_pol-eng': 10.139440754495492, 'flores_100_rus-eng': 11.875088489929638, 'flores_100_slk-eng': 9.546687368797079, 'flores_100_slv-eng': 10.579844077444468, 'flores_100_srp-eng': 12.054363850638289, 'flores_100_ukr-eng': 13.076694286652993, 'naive_average': 11.020866627687846}
+flores_100_English_Indo-European-Slavic: {'flores_100_eng-bel': 0.28191144244293925, 'flores_100_eng-bos': 5.50842106541778, 'flores_100_eng-bul': 3.8992997724639777, 'flores_100_eng-ces': 4.861296790044507, 'flores_100_eng-hrv': 4.436119605717407, 'flores_100_eng-mkd': 1.6324989124578841, 'flores_100_eng-pol': 4.014522461195734, 'flores_100_eng-rus': 2.4752174643188214, 'flores_100_eng-slk': 2.915331321126611, 'flores_100_eng-slv': 4.300923135978563, 'flores_100_eng-srp': 2.9904419601568066, 'flores_100_eng-ukr': 1.6010079985203174, 'naive_average': 3.243082660820112}
+flores_100_Indo-European-Indo-Aryan_English: {'flores_100_asm-eng': 0.34816404435225984, 'flores_100_ben-eng': 0.7318422811181687, 'flores_100_guj-eng': 0.4255593269839628, 'flores_100_hin-eng': 2.4333953889354945, 'flores_100_mar-eng': 1.18266041550918, 'flores_100_npi-eng': 1.699714101095047, 'flores_100_ory-eng': 0.4511483399524293, 'flores_100_pan-eng': 0.5271227165811674, 'flores_100_snd-eng': 0.6958427481363683, 'flores_100_urd-eng': 0.7620620932439912, 'naive_average': 0.925751145590807}
+flores_100_English_Indo-European-Indo-Aryan: {'flores_100_eng-asm': 0.020826577611533555, 'flores_100_eng-ben': 0.01255558724483446, 'flores_100_eng-guj': 0.005070623889365187, 'flores_100_eng-hin': 0.4758546959440391, 'flores_100_eng-mar': 0.16833279889320024, 'flores_100_eng-npi': 0.0665825447780552, 'flores_100_eng-ory': 0.00674083306156932, 'flores_100_eng-pan': 0.0005772219050232465, 'flores_100_eng-snd': 0.20705150183132615, 'flores_100_eng-urd': 0.07635257627602246, 'naive_average': 0.10399449614349691}
+flores_100_Indo-European-Other_English: {'flores_100_ckb-eng': 0.7489836363810759, 'flores_100_cym-eng': 4.026263860514842, 'flores_100_ell-eng': 4.657247330700197, 'flores_100_fas-eng': 2.5654504979860193, 'flores_100_gle-eng': 4.14805875247047, 'flores_100_hye-eng': 0.35433341042358024, 'flores_100_ita-eng': 9.647169482151599, 'flores_100_lav-eng': 2.1798717126802316, 'flores_100_lit-eng': 3.159367513665389, 'flores_100_pus-eng': 1.850087449904327, 'flores_100_tgk-eng': 1.1122757229186937, 'naive_average': 3.1317372154360386}
+flores_100_English_Indo-European-Other: {'flores_100_eng-ckb': 0.02922375808643238, 'flores_100_eng-cym': 2.2929460645835973, 'flores_100_eng-ell': 0.6872914057704959, 'flores_100_eng-fas': 0.45679908720024903, 'flores_100_eng-gle': 1.6985927348594287, 'flores_100_eng-hye': 0.1328001519130855, 'flores_100_eng-ita': 7.8199143590218805, 'flores_100_eng-lav': 0.9381961138345585, 'flores_100_eng-lit': 0.9739254891959793, 'flores_100_eng-pus': 0.2662041892319114, 'flores_100_eng-tgk': 0.07184756375777424, 'naive_average': 1.3970673561323086}
+flores_100_Austronesian_English: {'flores_100_ceb-eng': 5.4214903192926895, 'flores_100_ind-eng': 11.362031226627412, 'flores_100_jav-eng': 3.8066162218351587, 'flores_100_mri-eng': 2.704800419981641, 'flores_100_msa-eng': 10.192906430870602, 'flores_100_tgl-eng': 7.222621132841022, 'naive_average': 6.785077625241421}
+flores_100_English_Austronesian: {'flores_100_eng-ceb': 3.9032212887660727, 'flores_100_eng-ind': 4.472957036417225, 'flores_100_eng-jav': 1.0115185608528057, 'flores_100_eng-mri': 2.037424462071286, 'flores_100_eng-msa': 4.235665407607995, 'flores_100_eng-tgl': 4.286122557050417, 'naive_average': 3.324484885460967}
+flores_100_Atlantic-Congo_English: {'flores_100_ibo-eng': 2.3876564269999583, 'flores_100_kam-eng': 3.4792749730362647, 'flores_100_kea-eng': 6.750009936961824, 'flores_100_lin-eng': 2.2760987540427924, 'flores_100_lug-eng': 2.699336030869689, 'flores_100_nso-eng': 2.515551531605936, 'flores_100_nya-eng': 3.0054389368817223, 'flores_100_sna-eng': 3.2979319240372766, 'flores_100_swh-eng': 3.4606372382197934, 'flores_100_umb-eng': 1.9195675938309233, 'flores_100_wol-eng': 2.4090040786946436, 'flores_100_xho-eng': 2.967633341631721, 'flores_100_yor-eng': 2.3236249203219645, 'flores_100_zul-eng': 2.2864587035419093, 'naive_average': 2.9841588850483154}
+flores_100_English_Atlantic-Congo: {'flores_100_eng-ibo': 1.1271551970295255, 'flores_100_eng-kam': 1.2172083249939532, 'flores_100_eng-kea': 2.0579200352302323, 'flores_100_eng-lin': 1.035115063422843, 'flores_100_eng-lug': 0.5826975092149527, 'flores_100_eng-nso': 0.8023984569979615, 'flores_100_eng-nya': 1.7651413279313732, 'flores_100_eng-sna': 1.2131097143953693, 'flores_100_eng-swh': 1.3676924185673065, 'flores_100_eng-umb': 1.0883311572154521, 'flores_100_eng-wol': 0.8092149820739811, 'flores_100_eng-xho': 0.6871699588981355, 'flores_100_eng-yor': 0.24574275167642556, 'flores_100_eng-zul': 0.3901957678786845, 'naive_average': 1.027792333251871}
+flores_100_Afro-Asiatic_English: {'flores_100_amh-eng': 0.4368818561787449, 'flores_100_ara-eng': 4.417875556065416, 'flores_100_ful-eng': 2.119282747142511, 'flores_100_mlt-eng': 5.847799146834625, 'flores_100_orm-eng': 0.914264431043702, 'flores_100_som-eng': 2.4343603192122565, 'naive_average': 2.6950773427462096}
+flores_100_English_Afro-Asiatic: {'flores_100_eng-amh': 0.028154981266223712, 'flores_100_eng-ara': 0.47224528844473723, 'flores_100_eng-ful': 0.828802046571911, 'flores_100_eng-mlt': 2.0794711963821815, 'flores_100_eng-orm': 0.4357060872539927, 'flores_100_eng-som': 1.4125042538875958, 'naive_average': 0.8761473089677736}
+flores_100_Turkic_English: {'flores_100_azj-eng': 2.077774115327497, 'flores_100_kaz-eng': 1.5702676268481452, 'flores_100_kir-eng': 1.611923585314893, 'flores_100_tur-eng': 4.841402093393838, 'flores_100_uzb-eng': 1.5945867072738829, 'naive_average': 2.3391908256316514}
+flores_100_English_Turkic: {'flores_100_eng-azj': 0.8392776337908661, 'flores_100_eng-kaz': 0.08604649504720736, 'flores_100_eng-kir': 0.151245158246591, 'flores_100_eng-tur': 1.888965352047203, 'flores_100_eng-uzb': 0.42697052432691135, 'naive_average': 0.6785010326917558}
+flores_100_Dravidian_English: {'flores_100_kan-eng': 0.39404149223402357, 'flores_100_mal-eng': 0.16782265969525192, 'flores_100_tam-eng': 0.41700563764967036, 'flores_100_tel-eng': 1.3821507008656642, 'naive_average': 0.5902551226111525}
+flores_100_English_Dravidian: {'flores_100_eng-kan': 0.0056234891396933035, 'flores_100_eng-mal': 0.16526550624330155, 'flores_100_eng-tam': 0.013557112195401679, 'flores_100_eng-tel': 0.024407146350971562, 'naive_average': 0.052213313482342025}
+flores_100_Sino-Tibetan_English: {'flores_100_mya-eng': 0.3607948464348955, 'flores_100_zho_simpl-eng': 9.170200502632818, 'flores_100_zho_trad-eng': 8.712924095356309, 'naive_average': 6.081306481474674}
+flores_100_English_Sino-Tibetan: {'flores_100_eng-mya': 0.0004082093187892356, 'flores_100_eng-zho_simpl': 2.221390275851284, 'flores_100_eng-zho_trad': 0.10952522752817959, 'naive_average': 0.7771079042327509}
+flores_100_Other_English: {'flores_100_est-eng': 3.747245104111257, 'flores_100_fin-eng': 7.271631500657163, 'flores_100_hau-eng': 2.1543551461285606, 'flores_100_heb-eng': 2.535604328199691, 'flores_100_hun-eng': 9.976463900081626, 'flores_100_jpn-eng': 6.816902324827626, 'flores_100_kat-eng': 0.7170967969414873, 'flores_100_khm-eng': 2.11888961296071, 'flores_100_kor-eng': 2.9698077896592583, 'flores_100_lao-eng': 3.05727291680437, 'flores_100_luo-eng': 2.3140582241374426, 'flores_100_mon-eng': 1.408329515461816, 'flores_100_tha-eng': 1.224096514747148, 'flores_100_vie-eng': 4.002573300794949, 'naive_average': 3.5938804982509356}
+flores_100_English_Other: {'flores_100_eng-est': 1.721061095791188, 'flores_100_eng-fin': 2.253463583406634, 'flores_100_eng-hau': 0.7635233143748275, 'flores_100_eng-heb': 0.5784921420324689, 'flores_100_eng-hun': 3.1016930493576047, 'flores_100_eng-jpn': 0.023393869342075924, 'flores_100_eng-kat': 0.09017724171370115, 'flores_100_eng-khm': 0.02420143928376331, 'flores_100_eng-kor': 0.6167677684311783, 'flores_100_eng-lao': 0.09923845782046391, 'flores_100_eng-luo': 0.989695038570681, 'flores_100_eng-mon': 0.08268790596039641, 'flores_100_eng-tha': 2.7581573955965455, 'flores_100_eng-vie': 2.4306706875365, 'naive_average': 1.1095159278012876}
+flores_100: {'flores_100_afr-eng': 13.03534465371622, 'flores_100_dan-eng': 15.225034835231273, 'flores_100_deu-eng': 12.250587826719853, 'flores_100_isl-eng': 2.8249163552792997, 'flores_100_ltz-eng': 5.2572628298471065, 'flores_100_nld-eng': 10.041568100507344, 'flores_100_nob-eng': 11.145685733552924, 'flores_100_swe-eng': 13.966793058815595, 'flores_100_ast-eng': 9.380180280769185, 'flores_100_cat-eng': 13.62349126729782, 'flores_100_fra-eng': 12.506242454909756, 'flores_100_glg-eng': 9.779731425144378, 'flores_100_oci-eng': 14.305903161619318, 'flores_100_por-eng': 13.714232431957894, 'flores_100_ron-eng': 13.11680000921949, 'flores_100_spa-eng': 9.095939746707867, 'flores_100_bel-eng': 2.440812820158124, 'flores_100_bos-eng': 13.782987800949112, 'flores_100_bul-eng': 13.676853429460436, 'flores_100_ces-eng': 12.647044271623294, 'flores_100_hrv-eng': 12.280977913139765, 'flores_100_mkd-eng': 10.149604468965482, 'flores_100_pol-eng': 10.139440754495492, 'flores_100_rus-eng': 11.875088489929638, 'flores_100_slk-eng': 9.546687368797079, 'flores_100_slv-eng': 10.579844077444468, 'flores_100_srp-eng': 12.054363850638289, 'flores_100_ukr-eng': 13.076694286652993, 'flores_100_asm-eng': 0.34816404435225984, 'flores_100_ben-eng': 0.7318422811181687, 'flores_100_guj-eng': 0.4255593269839628, 'flores_100_hin-eng': 2.4333953889354945, 'flores_100_mar-eng': 1.18266041550918, 'flores_100_npi-eng': 1.699714101095047, 'flores_100_ory-eng': 0.4511483399524293, 'flores_100_pan-eng': 0.5271227165811674, 'flores_100_snd-eng': 0.6958427481363683, 'flores_100_urd-eng': 0.7620620932439912, 'flores_100_ckb-eng': 0.7489836363810759, 'flores_100_cym-eng': 4.026263860514842, 'flores_100_ell-eng': 4.657247330700197, 'flores_100_fas-eng': 2.5654504979860193, 'flores_100_gle-eng': 4.14805875247047, 'flores_100_hye-eng': 0.35433341042358024, 'flores_100_ita-eng': 9.647169482151599, 'flores_100_lav-eng': 2.1798717126802316, 'flores_100_lit-eng': 3.159367513665389, 'flores_100_pus-eng': 1.850087449904327, 'flores_100_tgk-eng': 1.1122757229186937, 'flores_100_ceb-eng': 5.4214903192926895, 'flores_100_ind-eng': 11.362031226627412, 'flores_100_jav-eng': 3.8066162218351587, 'flores_100_mri-eng': 2.704800419981641, 'flores_100_msa-eng': 10.192906430870602, 'flores_100_tgl-eng': 7.222621132841022, 'flores_100_ibo-eng': 2.3876564269999583, 'flores_100_kam-eng': 3.4792749730362647, 'flores_100_kea-eng': 6.750009936961824, 'flores_100_lin-eng': 2.2760987540427924, 'flores_100_lug-eng': 2.699336030869689, 'flores_100_nso-eng': 2.515551531605936, 'flores_100_nya-eng': 3.0054389368817223, 'flores_100_sna-eng': 3.2979319240372766, 'flores_100_swh-eng': 3.4606372382197934, 'flores_100_umb-eng': 1.9195675938309233, 'flores_100_wol-eng': 2.4090040786946436, 'flores_100_xho-eng': 2.967633341631721, 'flores_100_yor-eng': 2.3236249203219645, 'flores_100_zul-eng': 2.2864587035419093, 'flores_100_amh-eng': 0.4368818561787449, 'flores_100_ara-eng': 4.417875556065416, 'flores_100_ful-eng': 2.119282747142511, 'flores_100_mlt-eng': 5.847799146834625, 'flores_100_orm-eng': 0.914264431043702, 'flores_100_som-eng': 2.4343603192122565, 'flores_100_azj-eng': 2.077774115327497, 'flores_100_kaz-eng': 1.5702676268481452, 'flores_100_kir-eng': 1.611923585314893, 'flores_100_tur-eng': 4.841402093393838, 'flores_100_uzb-eng': 1.5945867072738829, 'flores_100_kan-eng': 0.39404149223402357, 'flores_100_mal-eng': 0.16782265969525192, 'flores_100_tam-eng': 0.41700563764967036, 'flores_100_tel-eng': 1.3821507008656642, 'flores_100_mya-eng': 0.3607948464348955, 'flores_100_zho_simpl-eng': 9.170200502632818, 'flores_100_zho_trad-eng': 8.712924095356309, 'flores_100_est-eng': 3.747245104111257, 'flores_100_fin-eng': 7.271631500657163, 'flores_100_hau-eng': 2.1543551461285606, 'flores_100_heb-eng': 2.535604328199691, 'flores_100_hun-eng': 9.976463900081626, 'flores_100_jpn-eng': 6.816902324827626, 'flores_100_kat-eng': 0.7170967969414873, 'flores_100_khm-eng': 2.11888961296071, 'flores_100_kor-eng': 2.9698077896592583, 'flores_100_lao-eng': 3.05727291680437, 'flores_100_luo-eng': 2.3140582241374426, 'flores_100_mon-eng': 1.408329515461816, 'flores_100_tha-eng': 1.224096514747148, 'flores_100_vie-eng': 4.002573300794949, 'flores_100_eng-afr': 5.291068426491199, 'flores_100_eng-dan': 5.953618228222178, 'flores_100_eng-deu': 6.678003268512045, 'flores_100_eng-isl': 0.3111562659856718, 'flores_100_eng-ltz': 1.5657928856676124, 'flores_100_eng-nld': 5.317327082697318, 'flores_100_eng-nob': 4.29258578294697, 'flores_100_eng-swe': 7.365951790608669, 'flores_100_eng-ast': 3.9644595965103386, 'flores_100_eng-cat': 10.794777957549641, 'flores_100_eng-fra': 13.616476405093605, 'flores_100_eng-glg': 4.558179948760268, 'flores_100_eng-oci': 4.205095725357185, 'flores_100_eng-por': 10.833119194508651, 'flores_100_eng-ron': 8.545419745875266, 'flores_100_eng-spa': 8.98715520100086, 'flores_100_eng-bel': 0.28191144244293925, 'flores_100_eng-bos': 5.50842106541778, 'flores_100_eng-bul': 3.8992997724639777, 'flores_100_eng-ces': 4.861296790044507, 'flores_100_eng-hrv': 4.436119605717407, 'flores_100_eng-mkd': 1.6324989124578841, 'flores_100_eng-pol': 4.014522461195734, 'flores_100_eng-rus': 2.4752174643188214, 'flores_100_eng-slk': 2.915331321126611, 'flores_100_eng-slv': 4.300923135978563, 'flores_100_eng-srp': 2.9904419601568066, 'flores_100_eng-ukr': 1.6010079985203174, 'flores_100_eng-asm': 0.020826577611533555, 'flores_100_eng-ben': 0.01255558724483446, 'flores_100_eng-guj': 0.005070623889365187, 'flores_100_eng-hin': 0.4758546959440391, 'flores_100_eng-mar': 0.16833279889320024, 'flores_100_eng-npi': 0.0665825447780552, 'flores_100_eng-ory': 0.00674083306156932, 'flores_100_eng-pan': 0.0005772219050232465, 'flores_100_eng-snd': 0.20705150183132615, 'flores_100_eng-urd': 0.07635257627602246, 'flores_100_eng-ckb': 0.02922375808643238, 'flores_100_eng-cym': 2.2929460645835973, 'flores_100_eng-ell': 0.6872914057704959, 'flores_100_eng-fas': 0.45679908720024903, 'flores_100_eng-gle': 1.6985927348594287, 'flores_100_eng-hye': 0.1328001519130855, 'flores_100_eng-ita': 7.8199143590218805, 'flores_100_eng-lav': 0.9381961138345585, 'flores_100_eng-lit': 0.9739254891959793, 'flores_100_eng-pus': 0.2662041892319114, 'flores_100_eng-tgk': 0.07184756375777424, 'flores_100_eng-ceb': 3.9032212887660727, 'flores_100_eng-ind': 4.472957036417225, 'flores_100_eng-jav': 1.0115185608528057, 'flores_100_eng-mri': 2.037424462071286, 'flores_100_eng-msa': 4.235665407607995, 'flores_100_eng-tgl': 4.286122557050417, 'flores_100_eng-ibo': 1.1271551970295255, 'flores_100_eng-kam': 1.2172083249939532, 'flores_100_eng-kea': 2.0579200352302323, 'flores_100_eng-lin': 1.035115063422843, 'flores_100_eng-lug': 0.5826975092149527, 'flores_100_eng-nso': 0.8023984569979615, 'flores_100_eng-nya': 1.7651413279313732, 'flores_100_eng-sna': 1.2131097143953693, 'flores_100_eng-swh': 1.3676924185673065, 'flores_100_eng-umb': 1.0883311572154521, 'flores_100_eng-wol': 0.8092149820739811, 'flores_100_eng-xho': 0.6871699588981355, 'flores_100_eng-yor': 0.24574275167642556, 'flores_100_eng-zul': 0.3901957678786845, 'flores_100_eng-amh': 0.028154981266223712, 'flores_100_eng-ara': 0.47224528844473723, 'flores_100_eng-ful': 0.828802046571911, 'flores_100_eng-mlt': 2.0794711963821815, 'flores_100_eng-orm': 0.4357060872539927, 'flores_100_eng-som': 1.4125042538875958, 'flores_100_eng-azj': 0.8392776337908661, 'flores_100_eng-kaz': 0.08604649504720736, 'flores_100_eng-kir': 0.151245158246591, 'flores_100_eng-tur': 1.888965352047203, 'flores_100_eng-uzb': 0.42697052432691135, 'flores_100_eng-kan': 0.0056234891396933035, 'flores_100_eng-mal': 0.16526550624330155, 'flores_100_eng-tam': 0.013557112195401679, 'flores_100_eng-tel': 0.024407146350971562, 'flores_100_eng-mya': 0.0004082093187892356, 'flores_100_eng-zho_simpl': 2.221390275851284, 'flores_100_eng-zho_trad': 0.10952522752817959, 'flores_100_eng-est': 1.721061095791188, 'flores_100_eng-fin': 2.253463583406634, 'flores_100_eng-hau': 0.7635233143748275, 'flores_100_eng-heb': 0.5784921420324689, 'flores_100_eng-hun': 3.1016930493576047, 'flores_100_eng-jpn': 0.023393869342075924, 'flores_100_eng-kat': 0.09017724171370115, 'flores_100_eng-khm': 0.02420143928376331, 'flores_100_eng-kor': 0.6167677684311783, 'flores_100_eng-lao': 0.09923845782046391, 'flores_100_eng-luo': 0.989695038570681, 'flores_100_eng-mon': 0.08268790596039641, 'flores_100_eng-tha': 2.7581573955965455, 'flores_100_eng-vie': 2.4306706875365, 'naive_average': 3.7384394358035533}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
