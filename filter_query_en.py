@@ -13,13 +13,13 @@ def is_contain_chinese(check_str):
     return False
 
 
-with open('query_rewrite_en.json', 'r', encoding='utf-8') as f:
+with open('data/query/query_rewrite_en.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
     # print(data)
 
 all_data = []
 
-with open('query_rewrite_en_filter.jsonl','w',encoding='utf-8') as f:
+with open('data/query/query_rewrite_en_filter.jsonl', 'w', encoding='utf-8') as f:
     for sample in data:
         output = sample['output']
         if not is_contain_chinese(output) and  'transla' not in output:
@@ -39,5 +39,5 @@ with open('query_rewrite_en_filter.jsonl','w',encoding='utf-8') as f:
             f.write(json.dumps(en_sample,ensure_ascii=False)+'\n')
             all_data.append(en_sample)
 print(len(all_data))
-with open('query_rewrite_en_filter.json', 'w', encoding='utf-8') as f:
+with open('data/query/query_rewrite_en_filter.json', 'w', encoding='utf-8') as f:
     json.dump(all_data, f, ensure_ascii=False)

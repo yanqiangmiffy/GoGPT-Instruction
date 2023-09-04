@@ -39,5 +39,5 @@ for sample in tqdm(data):
     en_sample['output'] = translate(output)
     print(en_sample)
     all_data.append(en_sample)
-with open('query_rewrite_en.json', 'w', encoding='utf-8') as f:
+with open('data/query/query_rewrite_en.json', 'w', encoding='utf-8') as f:
     json.dump(all_data, f, ensure_ascii=False)
